@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="285.355" height="84" viewBox="0 0 285.355 84">
+  <defs>
+    <filter id="사각형_683" x="0" y="0" width="285.355" height="84" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="구성_요소_45_1" data-name="구성 요소 45 – 1" transform="translate(9 9)">
+    <g transform="matrix(1, 0, 0, 1, -9, -9)" filter="url(#사각형_683)">
+      <g id="사각형_683-2" data-name="사각형 683" transform="translate(9 9)" fill="#fff6dd" stroke="#fff" stroke-width="5">
+        <rect width="267.355" height="66" rx="13" stroke="none"/>
+        <rect x="2.5" y="2.5" width="262.355" height="61" rx="10.5" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

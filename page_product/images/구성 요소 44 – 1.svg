@@ -1,0 +1,11 @@
+<svg id="구성_요소_44_1" data-name="구성 요소 44 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="58.425" height="22.859" viewBox="0 0 58.425 22.859">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.276" stop-color="#fafbfc"/>
+      <stop offset="0.492" stop-color="#fffef3"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <path id="패스_12070" data-name="패스 12070" d="M1564.558,577.805a6.885,6.885,0,1,0-5.272-11.313,8.466,8.466,0,0,0-13.613-3.464,11.431,11.431,0,0,0-22.337,2.624,6.635,6.635,0,1,0-3.683,12.154Z" transform="translate(-1513.019 -554.946)" fill="url(#linear-gradient)"/>
+</svg>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mô tả trang web của bạn">
+    <title>Tiêu đề trang</title>
+
+    <!-- Thẻ Meta SEO -->
+    <link rel="stylesheet" type="text/css" href="./style.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-top">
+            <div class="back"><img src="./image/left-direction-arrow.svg"></div>
+            <div class="page-titel">로그인</div>
+            <div class="header-right">
+                <a class="cart">
+                    <img src="../page_product/images/cart.svg" />
+                    <span class="cart-number">3</span>
+                </a>
+                <a class="user">
+                    <img src="../page_product/images/user.svg" />
+                </a>
+            </div>
+        </div>
+        <nav class="menu-container">
+            <ul class="menu">
+                <li class="menu-item">
+                    <a href="#" onclick="activateMenu(event,0)">지금 스토어봄은?</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" onclick="activateMenu(event,1)">푸드코트</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" onclick="activateMenu(event,2)">집사랑 나랑</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" onclick="activateMenu(event,3)">스토리봄</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" onclick="activateMenu(event,4)">스토리봄</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" onclick="activateMenu(event,5)">스토리봄</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" onclick="activateMenu(event,6)">스토리봄</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="home-auth">
+            <div class="img-auth text-center">
+                <img src="./image/backgrourd-auth.png">
+            </div>
+            <div class="form-auth">
+                <form class="login100-form validate-form">
+
+                    <div class="wrap-input100 validate-input" data-validate="Valid email is: a@b.c">
+                        <input class="input100" type="text" name="email">
+                        <span class="focus-input100" data-placeholder="아이디"></span>
+                    </div>
+                    <div class="wrap-input100 validate-input" data-validate="Enter password">
+                        <span class="btn-show-pass">
+                            <i class="zmdi zmdi-eye"></i>
+                        </span>
+                        <input class="input100" type="password" name="pass">
+                        <span class="focus-input100" data-placeholder="비밀번호"></span>
+                    </div>
+                    <label class="checkbox">
+                        <input type="checkbox" checked>
+                        <span class="indicator"></span>
+                        로그인 유지
+                      </label>
+                    <div class="container-login100-form-btn">
+                        <button class="login100-form-btn">
+                            로그인
+                        </button>
+                    </div>
+                    <ul class="type">
+                        <li>회원가입</li>
+                        <li>아이디찾기</li>
+                        <li>비밀번호찾기</li>
+                        <li>비회원 주문조회</li>
+                    </ul>
+                    <div class="social-icons">
+                        <ul>
+                            <li>
+                                <a href="#"><img src="./image/social_icons/kakaotalk.svg" alt=""></a>
+                                <a href="#"><img src="./image/social_icons/fb.svg" alt=""></a>
+                                <a href="#"><img src="./image/social_icons/naver.svg" alt=""></a>
+                                <a href="#"><img src="./image/social_icons/google.svg" alt=""></a>
+                                <a href="#"><img src="./image/social_icons/ios.svg" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </form>
+            </div>
+            <div></div>
+        </div>
+    </main>
+    <script>
+        const myInputs = document.querySelectorAll('.input100');
+
+        function handleInputChange(event) {
+            const inputValue = event.target.value;
+            if (inputValue.length > 1) {
+                this.classList.add('has-val');
+            } else {
+                this.classList.remove('has-val');
+            }
+        }
+
+        myInputs.forEach(function (input) {
+            input.addEventListener('input', handleInputChange);
+        });
+
+
+    </script>
+</body>
+
+</html>

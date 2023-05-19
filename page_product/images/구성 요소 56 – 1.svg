@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65.617" height="65.619" viewBox="0 0 65.617 65.619">
+  <defs>
+    <filter id="타원_492" x="0" y="0" width="65.617" height="65.619" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="구성_요소_56_1" data-name="구성 요소 56 – 1" transform="translate(4.5 4.5)">
+    <g transform="matrix(1, 0, 0, 1, -4.5, -4.5)" filter="url(#타원_492)">
+      <ellipse id="타원_492-2" data-name="타원 492" cx="28.309" cy="28.31" rx="28.309" ry="28.31" transform="translate(4.5 4.5)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

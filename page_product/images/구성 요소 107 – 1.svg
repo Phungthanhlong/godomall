@@ -1,0 +1,65 @@
+<svg id="구성_요소_107_1" data-name="구성 요소 107 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="491.025" height="641.196" viewBox="0 0 491.025 641.196">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.158" stop-color="#ffd688"/>
+      <stop offset="1" stop-color="#ffac10"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.276" stop-color="#fafbfc"/>
+      <stop offset="0.492" stop-color="#fffef3"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <rect id="사각형_932" data-name="사각형 932" width="475.22" height="641.196" opacity="0.479" fill="url(#linear-gradient)"/>
+  <path id="패스_19660" data-name="패스 19660" d="M1553.62,572.954a5.424,5.424,0,1,0-4.153-8.912,6.669,6.669,0,0,0-10.724-2.729,9,9,0,0,0-17.6,2.067,5.227,5.227,0,1,0-2.9,9.575Z" transform="translate(-1068.019 -403.274)" fill="url(#linear-gradient-2)"/>
+  <ellipse id="타원_494" data-name="타원 494" cx="3.25" cy="3.25" rx="3.25" ry="3.25" transform="translate(445 71.392) rotate(-76.718)" fill="#fffef3"/>
+  <g id="구성_요소_67_1" data-name="구성 요소 67 – 1" transform="translate(3.63 129.305)">
+    <path id="패스_19661" data-name="패스 19661" d="M771.535,1834.817l-92.863-119.11a21.975,21.975,0,0,0-34.66,0l-92.863,119.11Z" transform="translate(-551.149 -1707.244)" fill="#ffe1a8" opacity="0.702"/>
+  </g>
+  <g id="그룹_7157" data-name="그룹 7157" transform="translate(33.401 144.418)" opacity="0.491">
+    <g id="그룹_245" data-name="그룹 245" transform="translate(9.203 24.46)">
+      <path id="패스_710" data-name="패스 710" d="M-312.329-70.992a.267.267,0,0,1-.267.267h0a.267.267,0,0,1-.267-.267V-80.7a.267.267,0,0,1,.267-.267h0a.267.267,0,0,1,.267.267Z" transform="translate(312.862 80.969)" fill="#00537f"/>
+      <path id="패스_711" data-name="패스 711" d="M-304.818-70.992a.267.267,0,0,1-.267.267h0a.267.267,0,0,1-.267-.267V-80.7a.267.267,0,0,1,.267-.267h0a.267.267,0,0,1,.267.267Z" transform="translate(310.26 80.969)" fill="#00537f"/>
+    </g>
+    <g id="그룹_246" data-name="그룹 246" transform="translate(0 0)">
+      <path id="패스_712" data-name="패스 712" d="M-311.767-89.67s.107-1.6,4.481-7.042,4.188-9.9,4.188-9.9A11.789,11.789,0,0,0-314.888-118.4h-.267a11.789,11.789,0,0,0-11.789,11.789s-.187,4.456,4.188,9.9,4.481,7.042,4.481,7.042Z" transform="translate(326.945 118.397)" fill="#f49f9f"/>
+      <path id="패스_713" data-name="패스 713" d="M-310.12-89.67s.049-1.6,2.075-7.042a29.716,29.716,0,0,0,1.94-9.9c0-6.51-2.445-11.789-5.46-11.789h-.124c-3.015,0-5.46,5.278-5.46,11.789a29.723,29.723,0,0,0,1.94,9.9c2.026,5.442,2.076,7.042,2.076,7.042Z" transform="translate(323.551 118.397)" fill="#fff2cb"/>
+    </g>
+    <g id="그룹_247" data-name="그룹 247" transform="translate(7.819 31.609)">
+      <path id="패스_714" data-name="패스 714" d="M-306.978-69.044V-65.8a1.507,1.507,0,0,1-1.507,1.507H-312.8A1.507,1.507,0,0,1-314.3-65.8v-3.248Z" transform="translate(314.746 69.688)" fill="#ffb97c"/>
+      <path id="패스_715" data-name="패스 715" d="M-306.769-69.623a.408.408,0,0,1-.408.408h-7.4a.408.408,0,0,1-.407-.408h0a.408.408,0,0,1,.407-.407h7.4a.408.408,0,0,1,.408.407Z" transform="translate(314.981 70.03)" fill="#d35c38"/>
+    </g>
+  </g>
+  <ellipse id="타원_496" data-name="타원 496" cx="2.619" cy="2.619" rx="2.619" ry="2.619" transform="translate(75.696 70.923) rotate(-76.718)" fill="#fffef3"/>
+  <ellipse id="타원_497" data-name="타원 497" cx="1.545" cy="1.545" rx="1.545" ry="1.545" transform="translate(66.616 130.115) rotate(-76.718)" fill="#fffef3"/>
+  <ellipse id="타원_498" data-name="타원 498" cx="2.23" cy="2.23" rx="2.23" ry="2.23" transform="translate(411.492 87.938) rotate(-76.718)" fill="#fffef3"/>
+  <g id="그룹_7158" data-name="그룹 7158" transform="translate(353.445 44.763)" opacity="0.491">
+    <g id="그룹_245-2" data-name="그룹 245" transform="translate(10.706 28.453)">
+      <path id="패스_710-2" data-name="패스 710" d="M-312.242-69.364a.31.31,0,0,1-.31.31h0a.31.31,0,0,1-.31-.31V-80.659a.31.31,0,0,1,.31-.31h0a.31.31,0,0,1,.31.31Z" transform="translate(312.862 80.969)" fill="#00537f"/>
+      <path id="패스_711-2" data-name="패스 711" d="M-304.731-69.364a.31.31,0,0,1-.31.31h0a.31.31,0,0,1-.31-.31V-80.659a.31.31,0,0,1,.31-.31h0a.31.31,0,0,1,.31.31Z" transform="translate(311.061 80.969)" fill="#00537f"/>
+    </g>
+    <g id="그룹_246-2" data-name="그룹 246" transform="translate(0 0)">
+      <path id="패스_712-2" data-name="패스 712" d="M-309.289-84.98s.124-1.861,5.213-8.191,4.871-11.512,4.871-11.512A13.714,13.714,0,0,0-312.919-118.4h-.31a13.714,13.714,0,0,0-13.714,13.713s-.217,5.183,4.872,11.512,5.213,8.191,5.213,8.191Z" transform="translate(326.945 118.397)" fill="#f49f9f"/>
+      <path id="패스_713-2" data-name="패스 713" d="M-308.972-84.98s.057-1.861,2.414-8.191a34.568,34.568,0,0,0,2.257-11.512c0-7.573-2.844-13.713-6.351-13.713h-.144c-3.508,0-6.352,6.14-6.352,13.713a34.576,34.576,0,0,0,2.256,11.512c2.357,6.33,2.414,8.191,2.414,8.191Z" transform="translate(324.596 118.397)" fill="#fff2cb"/>
+    </g>
+    <g id="그룹_247-2" data-name="그룹 247" transform="translate(9.095 36.768)">
+      <path id="패스_714-2" data-name="패스 714" d="M-305.782-69.044v3.778a1.753,1.753,0,0,1-1.753,1.753h-5.015a1.753,1.753,0,0,1-1.753-1.753v-3.778Z" transform="translate(314.818 69.794)" fill="#ffb97c"/>
+      <path id="패스_715-2" data-name="패스 715" d="M-305.429-69.556a.475.475,0,0,1-.474.474h-8.6a.474.474,0,0,1-.474-.474h0a.474.474,0,0,1,.474-.474h8.6a.474.474,0,0,1,.474.474Z" transform="translate(314.981 70.03)" fill="#d35c38"/>
+    </g>
+  </g>
+  <path id="패스_19662" data-name="패스 19662" d="M1553.62,572.954a5.424,5.424,0,1,0-4.153-8.912,6.669,6.669,0,0,0-10.724-2.729,9,9,0,0,0-17.6,2.067,5.227,5.227,0,1,0-2.9,9.575Z" transform="translate(-1121.856 -443.668)" fill="url(#linear-gradient-2)"/>
+  <path id="패스_19663" data-name="패스 19663" d="M1562.844,577.045a6.656,6.656,0,1,0-5.1-10.937,8.184,8.184,0,0,0-13.16-3.349,11.051,11.051,0,0,0-21.594,2.536,6.414,6.414,0,1,0-3.56,11.75Z" transform="translate(-1378.07 -495.501)" fill="url(#linear-gradient-2)"/>
+  <g id="구성_요소_68_1" data-name="구성 요소 68 – 1" transform="translate(171.886 124.697)">
+    <path id="패스_19664" data-name="패스 19664" d="M1996.393,1580.736h211.335l-89.708-88.951c-8.5-8.427-24.984-8.427-33.483,0l-7.594,7.53-27.054-26.825c-10.342-10.255-30.4-10.255-40.745,0L1891.1,1580.736Z" transform="translate(-1891.098 -1464.798)" fill="#ffe1a8"/>
+  </g>
+  <path id="패스_19676" data-name="패스 19676" d="M1553.62,572.954a5.424,5.424,0,1,0-4.153-8.912,6.669,6.669,0,0,0-10.724-2.729,9,9,0,0,0-17.6,2.067,5.227,5.227,0,1,0-2.9,9.575Z" transform="translate(-1502.63 -451.116)" fill="url(#linear-gradient-2)"/>
+  <ellipse id="타원_500" data-name="타원 500" cx="1.43" cy="1.43" rx="1.43" ry="1.43" transform="translate(233.485 70.039) rotate(-76.718)" fill="#fffef3"/>
+  <ellipse id="타원_501" data-name="타원 501" cx="1.239" cy="1.239" rx="1.239" ry="1.239" transform="translate(416.858 149.227) rotate(-76.718)" fill="#fffef3"/>
+  <ellipse id="타원_503" data-name="타원 503" cx="1.43" cy="1.43" rx="1.43" ry="1.43" transform="translate(101.19 96.09) rotate(-76.718)" fill="#fffef3"/>
+  <ellipse id="타원_504" data-name="타원 504" cx="2.37" cy="2.37" rx="2.37" ry="2.37" transform="translate(322.071 74.541) rotate(-76.718)" fill="#fffef3"/>
+  <ellipse id="타원_505" data-name="타원 505" cx="1.43" cy="1.43" rx="1.43" ry="1.43" transform="translate(145.006 110.62) rotate(-76.718)" fill="#fffef3"/>
+  <ellipse id="타원_506" data-name="타원 506" cx="1.43" cy="1.43" rx="1.43" ry="1.43" transform="translate(357.456 143.76) rotate(-76.718)" fill="#fffef3"/>
+  <ellipse id="타원_507" data-name="타원 507" cx="1.239" cy="1.239" rx="1.239" ry="1.239" transform="translate(452.82 188.073) rotate(-76.718)" fill="#fffef3"/>
+</svg>

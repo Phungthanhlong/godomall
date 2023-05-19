@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mô tả trang web của bạn">
+  <title>Tiêu đề trang</title>
+
+  <!-- Thẻ Meta SEO -->
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+</head>
+
+<body>
+  <div class="layout-main">
+
+    <div class="bg-img-index">
+      <div class="content-slogan">함께 놀러 갈 애기를
+        선택해 발권해주세요</div>
+      <div class="bg-img-element-2">
+        <div class="buttom option-animal">
+          <div class="dflex text-center">
+            <div class="buttom dog" onclick="showPopup(1)">댕댕이</div>
+            <div class="buttom cat" onclick="showPopup(2)">냥냥이</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="popup-select" class="popup-container">
+      <div class="popup-content">
+        <div class="main-content-popup">
+          <div class="content-popup-header">
+            <div class="close-img" onclick="closePopup()"><img src="./image/popup_index/close-popup-select.svg"></div>
+            <h1 class="text-center text">티켓 발권 완료 !</h1>
+          </div>
+          <div class="ticket image-content">
+
+            <div class="card-ticket" onclick="showSeal()">
+              <div id="img-dog-cat" class="img-animal">
+              </div>
+              <div class="text-ticket">
+                <h1 class="text-center">TICKET</h1>
+                <div><span>댕댕이와</span><span>스토어봄 둘러보기</span></div>
+              </div>
+              <div id="red_seal"><img src="./image/popup_index/readseal.svg"></div>
+            </div>
+
+
+          </div>
+
+          <div class="pieces unchose" id="unconfimred">
+            <img src="./image/popup_index/animation/image-1.svg">
+            <img src="./image/popup_index/animation/image-2.svg">
+            <img src="./image/popup_index/animation/image-3.svg">
+            <img src="./image/popup_index/animation/image-4.svg">
+            <img src="./image/popup_index/animation/image-5.svg">
+            <img src="./image/popup_index/animation/image-6.svg">
+            <img src="./image/popup_index/animation/image-7.svg">
+            <img src="./image/popup_index/animation/image-8.svg">
+            <img src="./image/popup_index/animation/image-9.svg">
+            <img >
+           </div> <!--xuất hiện hiệu ứng pháo giấy -->
+        </div>
+        <div class="redirect text-center" onclick="redirect()">스토어봄 놀러가기</div>
+         
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function showPopup(option) {
+      var popup = document.getElementById("popup-select");
+      var render_img = document.getElementById("img-dog-cat");
+      if(option == 1){
+        var htmlCode = "<img class=\"dog\" src=\"./image/popup_index/dog.svg\">";
+      }else{
+        var htmlCode = "<img class=\"cat\" src=\"./image/popup_index/cat.svg\">";
+      }
+      render_img.innerHTML = htmlCode;
+      popup.classList.remove("popup-container");
+    }
+    function closePopup() {
+      var popup = document.getElementById("popup-select");
+      popup.classList.add("popup-container");
+    }
+    function showSeal() {
+      var popup = document.getElementById("red_seal");
+      popup.classList.remove("unchose");
+    }
+    function redirect() {
+      window.location.href = "./page_product/index.html";
+    }
+    // abc();
+    // function abc(){
+    //   var cao = window.innerWidth;
+    //   var dai = window.innerHeight;
+    //   alert("cao:"+cao+" dai:"+dai);
+    // }
+  </script>
+</body>
+
+</html>

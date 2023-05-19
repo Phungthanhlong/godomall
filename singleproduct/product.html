@@ -1,0 +1,259 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<link rel="stylesheet" href="./style.css">
+
+<body>
+    <header class="header">
+        <div class="header-top">
+            <div class="back"><img src="../page_auth/image/left-direction-arrow.svg"></div>
+            <div class="page-titel">사료</div>
+            <div class="header-right">
+                <a class="cart">
+                    <img src="../page_product/images/cart.svg" />
+                    <span class="cart-number">3</span>
+                </a>
+                <a class="user">
+                    <img src="../page_product/images/user.svg" />
+                </a>
+            </div>
+        </div>
+        <nav class="menu-container">
+            <div class="category">
+                <ul class="category-list">
+                    <li class="category-item active">
+                        <a href="#" onclick="activateCategory(event,0)">사료</a>
+                    </li>
+                    <li class="category-item">
+                        <a href="#" onclick="activateCategory(event,1)">사료</a>
+                    </li>
+                    <li class="category-item">
+                        <a href="#" onclick="activateCategory(event,2)">사료</a>
+                    </li>
+                    <li class="category-item">
+                        <a href="#" onclick="activateCategory(event,3)">사료</a>
+                    </li>
+                    <li class="category-item">
+                        <a href="#" onclick="activateCategory(event,4)">사료</a>
+                    </li>
+                    <li class="category-item">
+                        <a href="#" onclick="activateCategory(event,5)">사료</a>
+                    </li>
+                    <li class="category-item">
+                        <a href="#" onclick="activateCategory(event,6)">사료</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div id="btnContainer" class="text-right">
+                <div class="filter-name">
+                    상품 인기순
+                </div>
+                <button class="btn active" onclick="gridView()"><img src="./image/구성 요소 5 – 1.svg"></button>
+                <button class="btn" onclick="listView()"><img src="./image/구성 요소 4 – 1.svg"></button>
+            </div>
+
+            <div class="row list-product">
+                <div class="column product-item grid-product-item">
+                    <div class="product-image">
+                        <img src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg" />
+                        <span class="sale">
+                            <img src="../page_product/images/구성 요소 85 – 1.svg"/>
+                        </span>
+                    </div>
+                    <div class="product-content">
+                        <p class="product-category">토토로 2단 4LOCK 와 컵 블</p>
+                        <p class="product-name">컵 블루 코스트 레드</p>
+                        <div class="product-price-content">
+                            <p class="product-price">29,900원</p>
+                        </div>
+                        <div class="reviews">
+                            <div class="star">
+                                <img src="./image/구성 요소 1 – 1.svg">
+                                <img src="./image/구성 요소 1 – 1.svg">
+                                <img src="./image/구성 요소 1 – 1.svg">
+                                <img src="./image/구성 요소 1 – 1.svg">
+                                <img src="./image/구성 요소 1 – 1.svg">
+                            </div>
+                            (1,500)
+                        </div>
+                    </div>
+                </div>
+                <div class="column product-item grid-product-item">
+                    <div class="product-image">
+                        <img src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg" />
+                        <span class="sale">
+                            <img src="../page_product/images/구성 요소 85 – 1.svg"/>
+                        </span>
+                    </div>
+                    <div class="product-content">
+                        <p class="product-category">토토로 2단 4LOCK 와 컵 블</p>
+                        <p class="product-name">컵 블루 코스트 레드</p>
+                        <div class="product-price-content">
+                            <p class="product-price">29,900원</p>
+                        </div>
+                        <div class="reviews">
+                            <div class="star">
+                                <img src="./image/구성 요소 1 – 1.svg">
+                                <img src="./image/구성 요소 1 – 1.svg">
+                                <img src="./image/구성 요소 1 – 1.svg">
+                                <img src="./image/구성 요소 1 – 1.svg">
+                                <img src="./image/구성 요소 1 – 1.svg">
+                            </div>
+                            (1,500)
+                        </div>
+                    </div>
+                </div>
+                <div class="column product-item grid-product-item">
+                    <div class="product-image">
+                        <img src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg" />
+                        <span class="sale">
+                            <img src="../page_product/images/구성 요소 85 – 1.svg"/>
+                        </span>
+                    </div>
+                    <div class="product-content">
+                        <p class="product-category">토토로 2단 4LOCK 와 컵 블</p>
+                        <p class="product-name">컵 블루 코스트 레드</p>
+                        <div class="product-price-content">
+                            <p class="product-price">29,900원</p>
+                        </div>
+                        <div class="reviews">
+                            <div class="star">
+                                <img src="./image/구성 요소 1 – 1.svg">
+                                <img src="./image/구성 요소 1 – 1.svg">
+                                <img src="./image/구성 요소 1 – 1.svg">
+                                <img src="./image/구성 요소 1 – 1.svg">
+                                <img src="./image/구성 요소 1 – 1.svg">
+                            </div>
+                            (1,500)
+                        </div>
+                    </div>
+                </div>
+                <div class="column product-item grid-product-item">
+                    <div class="product-image">
+                        <img src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg" />
+                        <span class="sale">
+                            <img src="../page_product/images/구성 요소 85 – 1.svg"/>
+                        </span>
+                    </div>
+                    <div class="product-content">
+                        <p class="product-category">토토로 2단 4LOCK 와 컵 블</p>
+                        <p class="product-name">컵 블루 코스트 레드</p>
+                        <div class="product-price-content">
+                            <p class="product-price">29,900원</p>
+                        </div>
+                        <div class="reviews">
+                            <div class="star">
+                                <img src="./image/구성 요소 1 – 1.svg">
+                                <img src="./image/구성 요소 1 – 1.svg">
+                                <img src="./image/구성 요소 1 – 1.svg">
+                                <img src="./image/구성 요소 1 – 1.svg">
+                                <img src="./image/구성 요소 1 – 1.svg">
+                            </div>
+                            (1,500)
+                        </div>
+                    </div>
+                </div>
+                <div class="column product-item grid-product-item">
+                    <div class="product-image">
+                        <img src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg" />
+                        <span class="sale">
+                            <img src="../page_product/images/구성 요소 85 – 1.svg"/>
+                        </span>
+                    </div>
+                    <div class="product-content">
+                        <p class="product-category">토토로 2단 4LOCK 와 컵 블</p>
+                        <p class="product-name">컵 블루 코스트 레드</p>
+                        <div class="product-price-content">
+                            <p class="product-price">29,900원</p>
+                        </div>
+                        <div class="reviews">
+                            <div class="star">
+                                <img src="./image/구성 요소 1 – 1.svg">
+                                <img src="./image/구성 요소 1 – 1.svg">
+                                <img src="./image/구성 요소 1 – 1.svg">
+                                <img src="./image/구성 요소 1 – 1.svg">
+                                <img src="./image/구성 요소 1 – 1.svg">
+                            </div>
+                            (1,500)
+                        </div>
+                    </div>
+                </div>
+                <div class="column product-item grid-product-item">
+                    <div class="product-image">
+                        <img src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg" />
+                        <span class="sale">
+                            <img src="../page_product/images/구성 요소 85 – 1.svg"/>
+                        </span>
+                    </div>
+                    <div class="product-content">
+                        <p class="product-category">토토로 2단 4LOCK 와 컵 블</p>
+                        <p class="product-name">컵 블루 코스트 레드</p>
+                        <div class="product-price-content">
+                            <p class="product-price">29,900원</p>
+                        </div>
+                        <div class="reviews">
+                            <div class="star">
+                                <img src="./image/구성 요소 1 – 1.svg">
+                                <img src="./image/구성 요소 1 – 1.svg">
+                                <img src="./image/구성 요소 1 – 1.svg">
+                                <img src="./image/구성 요소 1 – 1.svg">
+                                <img src="./image/구성 요소 1 – 1.svg">
+                            </div>
+                            (1,500)
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+    </main>
+</body>
+
+<script>
+    // Get the elements with class="column"
+    var elements = document.getElementsByClassName("column");
+
+    // Declare a loop variable
+    var i;
+
+    // List View
+    function listView() {
+        for (i = 0; i < elements.length; i++) {
+            elements[i].style.width = "100%";
+            elements[i].classList.add("gridview");
+        }
+    }
+
+    // Grid View
+    function gridView() {
+        for (i = 0; i < elements.length; i++) {
+            elements[i].style.width = "50%";
+            elements[i].classList.remove("gridview");
+        }
+    }
+
+    var container = document.getElementById("btnContainer");
+    var buttons = container.querySelectorAll(".btn");
+
+    buttons.forEach(function (button) {
+        button.addEventListener("click", function () {
+            buttons.forEach(function (btn) {
+                btn.classList.remove("active");
+            });
+            this.classList.add("active");
+        });
+    });
+</script>
+
+</html>
