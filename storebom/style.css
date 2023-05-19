@@ -1,0 +1,59 @@
+@import url("https://store.bom.co.kr/data/skin/front/beready_C_11/css/gd_layout.css?ts=1584671325");
+@import url("https://store.bom.co.kr/data/skin/front/beready_C_11/_msc/css/customize.css?191031v5");
+
+:root {
+    --primary: rgb(255, 69, 0);
+    --height-topbar: 40px;
+    --height-header: 120px;
+
+
+
+    --font-text-prouduct: 17px;
+    --font-text-prouduct-2: 16px;
+    --font-text-prouduct-3: 15px;
+    --font-text-primary: 14px;
+
+}
+
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0px;
+    font-size: 16px;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+header .header-top{
+    margin-top: 40px;
+}
+
+header .header-top .gd-tab-link{
+    float: right;
+}
+
+header .header-top .gd-tab-link li{
+    float: left;
+    list-style: none;
+    padding: 5px 10px;
+    position: relative;
+}
+
+header .header-top .gd-tab-link li:not(:last-child):after {
+    position: absolute;
+    top: 0;
+    right: -2px;
+    content: '|';
+    color: #D4D4D4;
+    font-size: 15px;
+    line-height: 1.5;
+}
