@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="253.807" height="84" viewBox="0 0 253.807 84">
+  <defs>
+    <filter id="사각형_839" x="0" y="0" width="253.807" height="84" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="구성_요소_133_1" data-name="구성 요소 133 – 1" transform="translate(9 9)">
+    <g id="구성_요소_88_1" data-name="구성 요소 88 – 1">
+      <g transform="matrix(1, 0, 0, 1, -9, -9)" filter="url(#사각형_839)">
+        <g id="사각형_839-2" data-name="사각형 839" transform="translate(9 9)" fill="#e9e9f5" stroke="#fff" stroke-width="5">
+          <rect width="235.807" height="66" rx="13" stroke="none"/>
+          <rect x="2.5" y="2.5" width="230.807" height="61" rx="10.5" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <g id="구성_요소_113_1" data-name="구성 요소 113 – 1" transform="translate(19.307 21)">
+      <text id="팡팡_터지는_신상템_" data-name="팡팡 터지는 신상템 " transform="translate(0 18)" fill="#7a789d" font-size="23" font-family="SDGdGulim, Sandoll Gyeokdonggulim"><tspan x="0" y="0">팡팡 터지는 신상템 </tspan></text>
+    </g>
+  </g>
+</svg>
