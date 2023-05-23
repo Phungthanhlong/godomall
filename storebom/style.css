@@ -270,7 +270,7 @@ nav.menu-container {
 
 /* product-prioritize */
 
-.product-prioritize .list-product.grid-product {
+.list-product.grid-product {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 30px
@@ -439,6 +439,41 @@ nav.menu-container {
 .top-filter{
     padding-bottom: 28px;
     border-bottom: 1px solid #E5E5E5;
+    margin-bottom: 45.16px;
 }
 
 /* checkbox */
+.main-product{
+    overflow: hidden;
+    margin-bottom: 48px;
+}
+
+.product-filter.row{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.product-filter .list-product.grid-product{
+    gap: unset;
+}
+
+.product-filter .list-product.grid-product>div{
+    padding: 15px;
+    border-bottom: 1px solid #E5E5E5;
+    border-right: 1px solid #E5E5E5;
+}
+
+.product-filter .list-product.grid-product>div:nth-child(-n+5){
+    padding-top: 0;
+}
+
+/* .product-filter .list-product.grid-product>div:nth-child(5n+1){
+    padding-left: 0;
+} */
+
+.product-filter .list-product.grid-product>div:nth-child(5n+5){
+    border-right: none;
+}
+
+
+
