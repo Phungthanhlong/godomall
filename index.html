@@ -63,7 +63,7 @@
             <img >
            </div> <!--xuất hiện hiệu ứng pháo giấy -->
         </div>
-        <div class="redirect text-center" onclick="redirect()">스토어봄 놀러가기</div>
+        <div class="redirect text-center">스토어봄 놀러가기</div>
          
       </div>
     </div>
@@ -75,8 +75,10 @@
       var render_img = document.getElementById("img-dog-cat");
       if(option == 1){
         var htmlCode = "<img class=\"dog\" src=\"./image/popup_index/dog.svg\">";
+        document.querySelector('.redirect.text-center').setAttribute('onclick','redirect(1)')
       }else{
         var htmlCode = "<img class=\"cat\" src=\"./image/popup_index/cat.svg\">";
+        document.querySelector('.redirect.text-center').setAttribute('onclick','redirect(2)')
       }
       render_img.innerHTML = htmlCode;
       popup.classList.remove("popup-container");
@@ -89,8 +91,12 @@
       var popup = document.getElementById("red_seal");
       popup.classList.remove("unchose");
     }
-    function redirect() {
-      window.location.href = "./page_product/index.html";
+    function redirect(id) {
+      if(id == 1){
+        window.location.href = "./page_product/index-dog.html";
+      }else{
+        window.location.href = "./page_product/index-cat.html";
+      }
     }
     // abc();
     // function abc(){

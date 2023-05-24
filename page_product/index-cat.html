@@ -1,0 +1,1139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Korea</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css?fbclid=IwAR2RTv2QRUt-KjHZrtx-svScL8i-kihxRo7I4HK9n3KOErRUTX0c1zhrNZI">
+
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <style>
+        .menu.animal .menu-item.active a::before {
+            background-image: url('./images/iconMenu.svg');
+            width: 85px;
+            height: 94px;
+            left: 0;
+        }
+
+        .menu-item.active a::before {
+            background-image: url('./images/animalcat.svg');
+            width: 63px;
+            height: 102px;
+            left: 26%;
+            position: absolute;
+            content: '';
+            bottom: 100%;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+        <img src="./images/logo.svg" />
+        <div class="header-right">
+            <a class="cart">
+                <img src="./images/cart.svg" />
+                <span class="cart-number">2</span>
+            </a>
+            <a class="user" onclick="redirect_auth()">
+                <img src="./images/user.svg" />
+            </a>
+        </div>
+    </header>
+
+    <section class="banner-top">
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle menu-toogle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span><img src="./images/구성 요소 35 – 1.svg" /></span>
+                <span>강아지</span>
+            </button>
+            <div class="dropdown-menu menu-toogle-content" aria-labelledby="dropdownMenuButton">
+                <div>
+                    <a class="dropdown-item active" onclick="activateMenuToggle(event,0)" href="#">강아지</a>
+                    <a class="dropdown-item" onclick="activateMenuToggle(event,1)" href="#">고양이</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <nav class="menu-container">
+        <ul class="menu">
+            <li class="menu-item active">
+                <a href="#" onclick="activateMenu(event,0)">지금 스토어봄은?</a>
+            </li>
+            <li class="menu-item">
+                <a href="#" onclick="activateMenu(event,1)">푸드코트</a>
+            </li>
+            <li class="menu-item">
+                <a href="#" onclick="activateMenu(event,2)">집사랑 나랑</a>
+            </li>
+            <li class="menu-item">
+                <a href="#" onclick="activateMenu(event,3)">스토리봄</a>
+            </li>
+            <li class="menu-item">
+                <a href="#" onclick="activateMenu(event,4)">스토리봄</a>
+            </li>
+            <li class="menu-item">
+                <a href="#" onclick="activateMenu(event,5)">스토리봄</a>
+            </li>
+            <li class="menu-item">
+                <a href="#" onclick="activateMenu(event,6)">스토리봄</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <div class="homepage">
+            <!--  -->
+            <section class="section-1">
+
+                <div class="bg-section">
+                    <img src="./images/구성 요소 104 – 1.svg" />
+                    <img src="./images/img1.svg" />
+                </div>
+
+                <div class="countdown-content">
+                    <div class="countdown-title">
+                    </div>
+
+                    <div class="countdown">
+                        <ul class="countdown-time" id="countdown">
+                            <li>0</li>
+                            <li>9</li> :
+                            <li>1</li>
+                            <li>5</li> :
+                            <li>4</li>
+                            <li>3</li>
+                        </ul>
+
+                        <div class="swiper mySwiper product-list">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="product-item">
+                                        <div class="product-image">
+                                            <img
+                                                src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg" />
+                                            <span class="sale">52%</span>
+                                        </div>
+                                        <div class="product-content">
+                                            <p class="product-category">아이코닉</p>
+                                            <p class="product-name">강아지전용 발 마사지크림</p>
+                                            <div class="product-price-content">
+                                                <p class="product-discount">52%</p>
+                                                <p class="product-price">29,900원</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-item">
+                                        <div class="product-image">
+                                            <img
+                                                src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg" />
+                                            <span class="sale">52%</span>
+                                        </div>
+                                        <div class="product-content">
+                                            <p class="product-category">아이코닉</p>
+                                            <p class="product-name">강아지전용 발 마사지크림</p>
+                                            <div class="product-price-content">
+                                                <p class="product-discount">52%</p>
+                                                <p class="product-price">29,900원</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-item">
+                                        <div class="product-image">
+                                            <img
+                                                src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg" />
+                                            <span class="sale">52%</span>
+                                        </div>
+                                        <div class="product-content">
+                                            <p class="product-category">아이코닉</p>
+                                            <p class="product-name">강아지전용 발 마사지크림</p>
+                                            <div class="product-price-content">
+                                                <p class="product-discount">52%</p>
+                                                <p class="product-price">29,900원</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-item">
+                                        <div class="product-image">
+                                            <img
+                                                src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg" />
+                                            <span class="sale">52%</span>
+                                        </div>
+                                        <div class="product-content">
+                                            <p class="product-category">아이코닉</p>
+                                            <p class="product-name">강아지전용 발 마사지크림</p>
+                                            <div class="product-price-content">
+                                                <p class="product-discount">52%</p>
+                                                <p class="product-price">29,900원</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--  -->
+            <section class="section-2">
+                <div class="bg-section">
+                    <img src="./images/구성 요소 105 – 1.svg" />
+                    <img src="./images/구성 요소 50 – 1.svg" />
+                </div>
+
+                <div class="countdown-content">
+                    <div class="countdown-title countdown-title2">
+
+                    </div>
+
+                    <div class="countdown countdown2">
+                        <div class="section-2-title">
+                            <p>우리 애기에게</p>
+                            <p>
+                                <span>고구마 케이크</span>
+                                <span> 어떠세요?</span>
+                            </p>
+                        </div>
+                        <div class="swiper mySwiper-section-2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="product-item product2-item">
+                                        <img src="./images/스크린샷 2022-06-14 오후 2.33.44@3x.png" />
+                                        <div class="product2-content">
+                                            <h3 class="product2-category">고구마 케이크</h3>
+                                            <p class="product2-name">모질개선에 효과적인 고구마 케이크</p>
+                                            <div class="product-price-content">
+                                                <img src="./images/구성 요소 58 – 1.svg" />
+                                                <p class="product-price">조리시간 30분</p>
+                                            </div>
+                                        </div>
+                                        <button class="product2-btn">
+                                            <img src="./images/구성 요소 57 – 1.svg" alt="">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-item product2-item">
+                                        <img src="./images/스크린샷 2022-06-14 오후 2.33.44@3x.png" />
+                                        <div class="product2-content">
+                                            <h3 class="product2-category">고구마 케이크</h3>
+                                            <p class="product2-name">모질개선에 효과적인 고구마 케이크</p>
+                                            <div class="product-price-content">
+                                                <img src="./images/구성 요소 58 – 1.svg" />
+                                                <p class="product-price">조리시간 30분</p>
+                                            </div>
+                                        </div>
+                                        <button class="product2-btn">
+                                            <img src="./images/구성 요소 57 – 1.svg" alt="">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-item product2-item">
+                                        <img src="./images/스크린샷 2022-06-14 오후 2.33.44@3x.png" />
+                                        <div class="product2-content">
+                                            <h3 class="product2-category">고구마 케이크</h3>
+                                            <p class="product2-name">모질개선에 효과적인 고구마 케이크</p>
+                                            <div class="product-price-content">
+                                                <img src="./images/구성 요소 58 – 1.svg" />
+                                                <p class="product-price">조리시간 30분</p>
+                                            </div>
+                                        </div>
+                                        <button class="product2-btn">
+                                            <img src="./images/구성 요소 57 – 1.svg" alt="">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-item product2-item">
+                                        <img src="./images/스크린샷 2022-06-14 오후 2.33.44@3x.png" />
+                                        <div class="product2-content">
+                                            <h3 class="product2-category">고구마 케이크</h3>
+                                            <p class="product2-name">모질개선에 효과적인 고구마 케이크</p>
+                                            <div class="product-price-content">
+                                                <img src="./images/구성 요소 58 – 1.svg" />
+                                                <p class="product-price">조리시간 30분</p>
+                                            </div>
+                                        </div>
+                                        <button class="product2-btn">
+                                            <img src="./images/구성 요소 57 – 1.svg" alt="">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="section-2-btn-bottom">
+                                <button class="button">레시피 더보기<img src="./images/구성 요소 134 – 1.svg"></button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!--  -->
+            <section class="section-3">
+                <div class="bg-section">
+                    <img src="./images/구성 요소 106 – 1.svg" />
+                    <img src="./images/구성 요소 61 – 1.svg" />
+                </div>
+
+                <div class="countdown-content">
+                    <div class="countdown-title countdown-title2">
+                    </div>
+
+                    <div class="countdown">
+                        <div class="category">
+                            <ul class="category-list">
+                                <li class="category-item active">
+                                    <a href="#" onclick="activateCategory(event,0)">사료</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" onclick="activateCategory(event,1)">사료</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" onclick="activateCategory(event,2)">사료</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" onclick="activateCategory(event,3)">사료</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" onclick="activateCategory(event,4)">사료</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" onclick="activateCategory(event,5)">사료</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" onclick="activateCategory(event,6)">사료</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="product-list grid-product">
+                            <div class="product-item grid-product-item">
+                                <div class="product-image">
+                                    <img src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg" />
+                                    <span class="sale">
+                                        <img src="./images/구성 요소 85 – 1.svg" />
+                                    </span>
+                                    <span class="p-numner">1</span>
+                                </div>
+                                <div class="product-content">
+                                    <p class="product-category">아이코닉</p>
+                                    <p class="product-name">강아지전용 발 마사지크림</p>
+                                    <div class="product-price-content">
+                                        <p class="product-discount">52%</p>
+                                        <p class="product-price">29,900원</p>
+                                    </div>
+                                    <p class="discount"><del>29,900원</del></p>
+                                </div>
+                            </div>
+                            <div class="product-item grid-product-item">
+                                <div class="product-image">
+                                    <img src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg" />
+                                    <span class="sale">
+                                        <img src="./images/구성 요소 85 – 1.svg" />
+                                    </span>
+                                    <span class="p-numner">2</span>
+                                </div>
+                                <div class="product-content">
+                                    <p class="product-category">아이코닉</p>
+                                    <p class="product-name">강아지전용 발 마사지크림</p>
+                                    <div class="product-price-content">
+                                        <p class="product-discount">52%</p>
+                                        <p class="product-price">29,900원</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-item grid-product-item">
+                                <div class="product-image">
+                                    <img src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg" />
+                                    <span class="sale">
+                                        <img src="./images/구성 요소 85 – 1.svg" />
+                                    </span>
+                                    <span class="p-numner">3</span>
+                                </div>
+                                <div class="product-content">
+                                    <p class="product-category">아이코닉</p>
+                                    <p class="product-name">강아지전용 발 마사지크림</p>
+                                    <div class="product-price-content">
+                                        <p class="product-discount">52%</p>
+                                        <p class="product-price">29,900원</p>
+                                    </div>
+                                    <p class="discount"><del>29,900원</del></p>
+                                </div>
+                            </div>
+                            <div class="product-item grid-product-item">
+                                <div class="product-image">
+                                    <img src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg" />
+                                    <span class="sale">
+                                        <img src="./images/구성 요소 85 – 1.svg" />
+                                    </span>
+                                    <span class="p-numner">4</span>
+                                </div>
+                                <div class="product-content">
+                                    <p class="product-category">아이코닉</p>
+                                    <p class="product-name">강아지전용 발 마사지크림</p>
+                                    <div class="product-price-content">
+                                        <p class="product-discount">52%</p>
+                                        <p class="product-price">29,900원</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-item grid-product-item">
+                                <div class="product-image">
+                                    <img src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg" />
+                                    <span class="sale">
+                                        <img src="./images/구성 요소 85 – 1.svg" />
+                                    </span>
+                                    <span class="p-numner">5</span>
+                                </div>
+                                <div class="product-content">
+                                    <p class="product-category">아이코닉</p>
+                                    <p class="product-name">강아지전용 발 마사지크림</p>
+                                    <div class="product-price-content">
+                                        <p class="product-discount">52%</p>
+                                        <p class="product-price">29,900원</p>
+                                    </div>
+                                    <p class="discount"><del>29,900원</del></p>
+                                </div>
+                            </div>
+                            <div class="product-item grid-product-item">
+                                <div class="product-image">
+                                    <img src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg" />
+                                    <span class="sale">
+                                        <img src="./images/구성 요소 85 – 1.svg" />
+                                    </span>
+                                    <span class="p-numner">6</span>
+                                </div>
+                                <div class="product-content">
+                                    <p class="product-category">아이코닉</p>
+                                    <p class="product-name">강아지전용 발 마사지크림</p>
+                                    <div class="product-price-content">
+                                        <p class="product-discount">52%</p>
+                                        <p class="product-price">29,900원</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- section 4 -->
+            <section class="section-4">
+                <div class="bg-section">
+                    <img src="./images/구성 요소 107 – 1.svg" />
+                    <img src="./images/구성 요소 69 – 1.svg" />
+                </div>
+                <div class="block-feature-product">
+                    <div class="countdown-title">
+
+                    </div>
+
+                    <div class="feature-product">
+                        <h3 class="feature-product-title">내 아가를 찾아주세요</h3>
+                        <div class="swiper myFeature feature-product-list">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="product-item feature-product-item">
+                                        <img src="./images/스크린샷 2022-06-14 오후 2.33.44@3x.png" />
+                                        <div class="product-content feature-product-content">
+                                            <p class="feature-product-name">우리 골드 좀 찾아주세요</p>
+                                            <ul>
+                                                <li>
+                                                    <span>지역</span>
+                                                    <span>서울 강남구 신사동</span>
+                                                </li>
+                                                <li>
+                                                    <span>시기</span>
+                                                    <span>2022-03-12</span>
+                                                </li>
+                                                <li>
+                                                    <span>종류</span>
+                                                    <span>골든 리트리버</span>
+                                                </li>
+                                                <li>
+                                                    <span>사례금</span>
+                                                    <span>100,000원</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-item feature-product-item">
+                                        <img src="./images/스크린샷 2022-06-14 오후 2.33.44@3x.png" />
+                                        <div class="product-content feature-product-content">
+                                            <p class="feature-product-name">우리 골드 좀 찾아주세요</p>
+                                            <ul>
+                                                <li>
+                                                    <span>지역</span>
+                                                    <span>서울 강남구 신사동</span>
+                                                </li>
+                                                <li>
+                                                    <span>시기</span>
+                                                    <span>2022-03-12</span>
+                                                </li>
+                                                <li>
+                                                    <span>종류</span>
+                                                    <span>골든 리트리버</span>
+                                                </li>
+                                                <li>
+                                                    <span>사례금</span>
+                                                    <span>100,000원</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-item feature-product-item">
+                                        <img src="./images/스크린샷 2022-06-14 오후 2.33.44@3x.png" />
+                                        <div class="product-content feature-product-content">
+                                            <p class="feature-product-name">우리 골드 좀 찾아주세요</p>
+                                            <ul>
+                                                <li>
+                                                    <span>지역</span>
+                                                    <span>서울 강남구 신사동</span>
+                                                </li>
+                                                <li>
+                                                    <span>시기</span>
+                                                    <span>2022-03-12</span>
+                                                </li>
+                                                <li>
+                                                    <span>종류</span>
+                                                    <span>골든 리트리버</span>
+                                                </li>
+                                                <li>
+                                                    <span>사례금</span>
+                                                    <span>100,000원</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h3 class="feature-product-title">아가를 보호중이에요</h3>
+                        <div class="swiper myFeature feature-product-list">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="product-item feature-product-item">
+                                        <img src="./images/스크린샷 2022-06-14 오후 2.33.44@3x.png" />
+                                        <div class="product-content feature-product-content">
+                                            <p class="feature-product-name">우리 골드 좀 찾아주세요</p>
+                                            <ul>
+                                                <li>
+                                                    <span>지역</span>
+                                                    <span>서울 강남구 신사동</span>
+                                                </li>
+                                                <li>
+                                                    <span>시기</span>
+                                                    <span>2022-03-12</span>
+                                                </li>
+                                                <li>
+                                                    <span>종류</span>
+                                                    <span>골든 리트리버</span>
+                                                </li>
+                                                <li>
+                                                    <span>사례금</span>
+                                                    <span>100,000원</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-item feature-product-item">
+                                        <img src="./images/스크린샷 2022-06-14 오후 2.33.44@3x.png" />
+                                        <div class="product-content feature-product-content">
+                                            <p class="feature-product-name">우리 골드 좀 찾아주세요</p>
+                                            <ul>
+                                                <li>
+                                                    <span>지역</span>
+                                                    <span>서울 강남구 신사동</span>
+                                                </li>
+                                                <li>
+                                                    <span>시기</span>
+                                                    <span>2022-03-12</span>
+                                                </li>
+                                                <li>
+                                                    <span>종류</span>
+                                                    <span>골든 리트리버</span>
+                                                </li>
+                                                <li>
+                                                    <span>사례금</span>
+                                                    <span>100,000원</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-item feature-product-item">
+                                        <img src="./images/스크린샷 2022-06-14 오후 2.33.44@3x.png" />
+                                        <div class="product-content feature-product-content">
+                                            <p class="feature-product-name">우리 골드 좀 찾아주세요</p>
+                                            <ul>
+                                                <li>
+                                                    <span>지역</span>
+                                                    <span>서울 강남구 신사동</span>
+                                                </li>
+                                                <li>
+                                                    <span>시기</span>
+                                                    <span>2022-03-12</span>
+                                                </li>
+                                                <li>
+                                                    <span>종류</span>
+                                                    <span>골든 리트리버</span>
+                                                </li>
+                                                <li>
+                                                    <span>사례금</span>
+                                                    <span>100,000원</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h3 class="feature-product-title">무료 분양해요</h3>
+                        <div class="swiper myFeature feature-product-list">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="product-item feature-product-item">
+                                        <img src="./images/스크린샷 2022-06-14 오후 2.33.44@3x.png" />
+                                        <div class="product-content feature-product-content">
+                                            <p class="feature-product-name">우리 골드 좀 찾아주세요</p>
+                                            <ul>
+                                                <li>
+                                                    <span>지역</span>
+                                                    <span>서울 강남구 신사동</span>
+                                                </li>
+                                                <li>
+                                                    <span>시기</span>
+                                                    <span>2022-03-12</span>
+                                                </li>
+                                                <li>
+                                                    <span>종류</span>
+                                                    <span>골든 리트리버</span>
+                                                </li>
+                                                <li>
+                                                    <span>사례금</span>
+                                                    <span>100,000원</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-item feature-product-item">
+                                        <img src="./images/스크린샷 2022-06-14 오후 2.33.44@3x.png" />
+                                        <div class="product-content feature-product-content">
+                                            <p class="feature-product-name">우리 골드 좀 찾아주세요</p>
+                                            <ul>
+                                                <li>
+                                                    <span>지역</span>
+                                                    <span>서울 강남구 신사동</span>
+                                                </li>
+                                                <li>
+                                                    <span>시기</span>
+                                                    <span>2022-03-12</span>
+                                                </li>
+                                                <li>
+                                                    <span>종류</span>
+                                                    <span>골든 리트리버</span>
+                                                </li>
+                                                <li>
+                                                    <span>사례금</span>
+                                                    <span>100,000원</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-item feature-product-item">
+                                        <img src="./images/스크린샷 2022-06-14 오후 2.33.44@3x.png" />
+                                        <div class="product-content feature-product-content">
+                                            <p class="feature-product-name">우리 골드 좀 찾아주세요</p>
+                                            <ul>
+                                                <li>
+                                                    <span>지역</span>
+                                                    <span>서울 강남구 신사동</span>
+                                                </li>
+                                                <li>
+                                                    <span>시기</span>
+                                                    <span>2022-03-12</span>
+                                                </li>
+                                                <li>
+                                                    <span>종류</span>
+                                                    <span>골든 리트리버</span>
+                                                </li>
+                                                <li>
+                                                    <span>사례금</span>
+                                                    <span>100,000원</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="section-5">
+                <div class="bg-section">
+                    <img src="./images/구성 요소 108 – 1.svg" />
+                    <img src="./images/구성 요소 75 – 1.svg" />
+                </div>
+                <div class="block-snack-food">
+                    <div class="countdown-title countdown-title5">
+
+                    </div>
+
+                    <div class="snack-food-product">
+                        <h3 class="feature-product-title">내 아가를 찾아주세요</h3>
+                        <div class="swiper mySnackFood snack-food-product-list">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="product-item grid-product-item snack-food-product-item">
+                                        <div class="product-image">
+                                            <img
+                                                src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg" />
+                                            <span class="sale">
+                                                <img src="./images/구성 요소 85 – 1.svg" />
+                                            </span>
+                                        </div>
+                                        <div class="product-content">
+                                            <p class="product-category">아이코닉</p>
+                                            <p class="product-name">강아지전용 발 마사지크림</p>
+                                            <div class="product-price-content">
+                                                <p class="product-discount">52%</p>
+                                                <p class="product-price">29,900원</p>
+                                            </div>
+                                            <p class="discount"><del>29,900원</del></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-item grid-product-item snack-food-product-item">
+                                        <div class="product-image">
+                                            <img
+                                                src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg" />
+                                            <span class="sale">
+                                                <img src="./images/구성 요소 85 – 1.svg" />
+                                            </span>
+                                        </div>
+                                        <div class="product-content">
+                                            <p class="product-category">아이코닉</p>
+                                            <p class="product-name">강아지전용 발 마사지크림</p>
+                                            <div class="product-price-content">
+                                                <p class="product-discount">52%</p>
+                                                <p class="product-price">29,900원</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-item grid-product-item snack-food-product-item">
+                                        <div class="product-image">
+                                            <img
+                                                src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg" />
+                                            <span class="sale">
+                                                <img src="./images/구성 요소 85 – 1.svg" />
+                                            </span>
+                                        </div>
+                                        <div class="product-content">
+                                            <p class="product-category">아이코닉</p>
+                                            <p class="product-name">강아지전용 발 마사지크림</p>
+                                            <div class="product-price-content">
+                                                <p class="product-discount">52%</p>
+                                                <p class="product-price">29,900원</p>
+                                            </div>
+                                            <p class="discount"><del>29,900원</del></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h3 class="feature-product-title">내 아가를 찾아주세요</h3>
+                        <div class="swiper mySnackFood snack-food-product-list">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="product-item grid-product-item snack-food-product-item">
+                                        <div class="product-image">
+                                            <img
+                                                src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg" />
+                                            <span class="sale">
+                                                <img src="./images/구성 요소 85 – 1.svg" />
+                                            </span>
+                                        </div>
+                                        <div class="product-content">
+                                            <p class="product-category">아이코닉</p>
+                                            <p class="product-name">강아지전용 발 마사지크림</p>
+                                            <div class="product-price-content">
+                                                <p class="product-discount">52%</p>
+                                                <p class="product-price">29,900원</p>
+                                            </div>
+                                            <p class="discount"><del>29,900원</del></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-item grid-product-item snack-food-product-item">
+                                        <div class="product-image">
+                                            <img
+                                                src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg" />
+                                            <span class="sale">
+                                                <img src="./images/구성 요소 85 – 1.svg" />
+                                            </span>
+                                        </div>
+                                        <div class="product-content">
+                                            <p class="product-category">아이코닉</p>
+                                            <p class="product-name">강아지전용 발 마사지크림</p>
+                                            <div class="product-price-content">
+                                                <p class="product-discount">52%</p>
+                                                <p class="product-price">29,900원</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-item grid-product-item snack-food-product-item">
+                                        <div class="product-image">
+                                            <img
+                                                src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg" />
+                                            <span class="sale">
+                                                <img src="./images/구성 요소 85 – 1.svg" />
+                                            </span>
+                                        </div>
+                                        <div class="product-content">
+                                            <p class="product-category">아이코닉</p>
+                                            <p class="product-name">강아지전용 발 마사지크림</p>
+                                            <div class="product-price-content">
+                                                <p class="product-discount">52%</p>
+                                                <p class="product-price">29,900원</p>
+                                            </div>
+                                            <p class="discount"><del>29,900원</del></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-6">
+                <div class="bg-section">
+                    <img src="./images/구성 요소 109 – 1.svg" />
+                    <img src="./images/구성 요소 78 – 1.svg" />
+                </div>
+                <div class="block-snack-food">
+                    <div class="countdown-title countdown-title2">
+                    </div>
+
+                    <div class="snack-food-product">
+                        <div class="block-product-colum">
+                            <div class="block-product-colum_header">
+                                <div class="block-product-colum_header-image">
+                                    <img src="./images/banner.svg" />
+                                    <span class="img-tag">GIFT</span>
+                                </div>
+                                <div class="block-product-colum_header-title">
+                                    <p>보송보송 우리 애기 귀저기</p>
+                                    <p>키치한 디자인 스티커 구경하고 가세요 !</p>
+                                </div>
+                            </div>
+                            <div class="block-product-colum_list">
+                                <div class="block-product-colum_item">
+                                    <img src="./images/스크린샷 2022-06-14 오후 2.33.44@3x.png" alt="">
+                                    <div class="block-product-colum_item-content">
+                                        <div class="block-product-colum_item-content-top">
+                                            <p>[유베이비] 보솜 패드 라이트</p>
+                                            <p>오일 100ML</p>
+                                        </div>
+                                        <div class="block-product-colum_item-content-bottom">
+                                            <div class="block-product-colum_item-price">
+                                                <span>10%</span>
+                                                <span>76,500원</span>
+                                            </div>
+                                            <button class="block-product-colum_item-btn">
+                                                <img src="./images/구성 요소 85 – 1.svg" />
+                                                찜하기
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="block-product-colum_item">
+                                    <img src="./images/스크린샷 2022-06-14 오후 2.33.44@3x.png" alt="">
+                                    <div class="block-product-colum_item-content">
+                                        <div class="block-product-colum_item-content-top">
+                                            <p>[유베이비] 보솜 패드 라이트</p>
+                                            <p>오일 100ML</p>
+                                        </div>
+                                        <div class="block-product-colum_item-content-bottom">
+                                            <div class="block-product-colum_item-price">
+                                                <span>10%</span>
+                                                <span>76,500원</span>
+                                            </div>
+                                            <button class="block-product-colum_item-btn">
+                                                <img src="./images/구성 요소 85 – 1.svg" />
+                                                찜하기
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="block-product-colum_item">
+                                    <img src="./images/스크린샷 2022-06-14 오후 2.33.44@3x.png" alt="">
+                                    <div class="block-product-colum_item-content">
+                                        <div class="block-product-colum_item-content-top">
+                                            <p>[유베이비] 보솜 패드 라이트</p>
+                                            <p>오일 100ML</p>
+                                        </div>
+                                        <div class="block-product-colum_item-content-bottom">
+                                            <div class="block-product-colum_item-price">
+                                                <span>10%</span>
+                                                <span>76,500원</span>
+                                            </div>
+                                            <button class="block-product-colum_item-btn">
+                                                <img src="./images/구성 요소 85 – 1.svg" />
+                                                찜하기
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="block-product-colum">
+                            <div class="block-product-colum_header">
+                                <div class="block-product-colum_header-image">
+                                    <img src="./images/banner.svg" />
+                                    <span class="img-tag">GIFT</span>
+                                </div>
+                                <div class="block-product-colum_header-title">
+                                    <p>보송보송 우리 애기 귀저기</p>
+                                    <p>키치한 디자인 스티커 구경하고 가세요 !</p>
+                                </div>
+                            </div>
+                            <div class="block-product-colum_list">
+                                <div class="block-product-colum_item">
+                                    <img src="./images/스크린샷 2022-06-14 오후 2.33.44@3x.png" alt="">
+                                    <div class="block-product-colum_item-content">
+                                        <div class="block-product-colum_item-content-top">
+                                            <p>[유베이비] 보솜 패드 라이트</p>
+                                            <p>오일 100ML</p>
+                                        </div>
+                                        <div class="block-product-colum_item-content-bottom">
+                                            <div class="block-product-colum_item-price">
+                                                <span>10%</span>
+                                                <span>76,500원</span>
+                                            </div>
+                                            <button class="block-product-colum_item-btn">
+                                                <img src="./images/구성 요소 85 – 1.svg" />
+                                                찜하기
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="block-product-colum_item">
+                                    <img src="./images/스크린샷 2022-06-14 오후 2.33.44@3x.png" alt="">
+                                    <div class="block-product-colum_item-content">
+                                        <div class="block-product-colum_item-content-top">
+                                            <p>[유베이비] 보솜 패드 라이트</p>
+                                            <p>오일 100ML</p>
+                                        </div>
+                                        <div class="block-product-colum_item-content-bottom">
+                                            <div class="block-product-colum_item-price">
+                                                <span>10%</span>
+                                                <span>76,500원</span>
+                                            </div>
+                                            <button class="block-product-colum_item-btn">
+                                                <img src="./images/구성 요소 85 – 1.svg" />
+                                                찜하기
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="block-product-colum_item">
+                                    <img src="./images/스크린샷 2022-06-14 오후 2.33.44@3x.png" alt="">
+                                    <div class="block-product-colum_item-content">
+                                        <div class="block-product-colum_item-content-top">
+                                            <p>[유베이비] 보솜 패드 라이트</p>
+                                            <p>오일 100ML</p>
+                                        </div>
+                                        <div class="block-product-colum_item-content-bottom">
+                                            <div class="block-product-colum_item-price">
+                                                <span>10%</span>
+                                                <span>76,500원</span>
+                                            </div>
+                                            <button class="block-product-colum_item-btn">
+                                                <img src="./images/구성 요소 85 – 1.svg" />
+                                                찜하기
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-7">
+                <div class="bg-section">
+                    <img src="./images/구성 요소 110 – 1.svg" />
+                    <img src="./images/구성 요소 112 – 1.svg" />
+                </div>
+                <div class="block-snack-food block-new">
+                    <div class="countdown-title countdown-title2">
+
+                    </div>
+
+                    <div class="product_list grid-product">
+                        <div class="product-item grid-product-item product-new_item">
+                            <div class="product-image">
+                                <img src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg" />
+                                <span class="sale">
+                                    <img src="./images/구성 요소 85 – 1.svg" />
+                                </span>
+                            </div>
+                            <div class="product-content">
+                                <p class="product-category">아이코닉</p>
+                                <p class="product-name">강아지전용 발 마사지크림</p>
+                                <div class="product-price-content">
+                                    <p class="product-discount">52%</p>
+                                    <p class="product-price">29,900원</p>
+                                </div>
+                                <p class="discount"><del>29,900원</del></p>
+                            </div>
+
+                        </div>
+                        <div class="product-item grid-product-item product-new_item">
+                            <div class="product-image">
+                                <img src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg" />
+                                <span class="sale">
+                                    <img src="./images/구성 요소 85 – 1.svg" />
+                                </span>
+                            </div>
+                            <div class="product-content">
+                                <p class="product-category">아이코닉</p>
+                                <p class="product-name">강아지전용 발 마사지크림</p>
+                                <div class="product-price-content">
+                                    <p class="product-discount">52%</p>
+                                    <p class="product-price">29,900원</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item grid-product-item product-new_item">
+                            <div class="product-image">
+                                <img src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg" />
+                                <span class="sale">
+                                    <img src="./images/구성 요소 85 – 1.svg" />
+                                </span>
+                            </div>
+                            <div class="product-content">
+                                <p class="product-category">아이코닉</p>
+                                <p class="product-name">강아지전용 발 마사지크림</p>
+                                <div class="product-price-content">
+                                    <p class="product-discount">52%</p>
+                                    <p class="product-price">29,900원</p>
+                                </div>
+                                <p class="discount"><del>29,900원</del></p>
+                            </div>
+
+                        </div>
+                        <div class="product-item grid-product-item product-new_item">
+                            <div class="product-image">
+                                <img src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg" />
+                                <span class="sale">
+                                    <img src="./images/구성 요소 85 – 1.svg" />
+                                </span>
+                            </div>
+                            <div class="product-content">
+                                <p class="product-category">아이코닉</p>
+                                <p class="product-name">강아지전용 발 마사지크림</p>
+                                <div class="product-price-content">
+                                    <p class="product-discount">52%</p>
+                                    <p class="product-price">29,900원</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="btn-more-content">
+                        <button class="btn-more">레시피 더보기<img src="./images/구성 요소 134 – 1.svg"></button>
+                    </div>
+            </section>
+        </div>
+    </main>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: "auto",
+            centeredSlides: true,
+            spaceBetween: 34,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+
+        var swiper = new Swiper(".mySwiper-section-2", {
+            slidesPerView: "auto",
+            spaceBetween: 0,
+        });
+        var swiper2 = new Swiper(".myFeature", {
+            slidesPerView: "auto",
+            spaceBetween: 27,
+        });
+        var swiper3 = new Swiper(".mySnackFood", {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        })
+        function redirect_auth() {
+            window.location.href = "../page_auth/index.html";
+        }
+    </script>
+</body>
+
+</html>

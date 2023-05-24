@@ -188,15 +188,6 @@ nav {
 
 }
 
-.menu-item.active a::before {
-    position: absolute;
-    bottom: 100%;
-    content: '';
-    width: 85px;
-    height: 94px;
-    background-image: url('./images/iconMenu.svg');
-    background-size: cover;
-}
 
 .menu-item a {
     text-decoration: none;
@@ -694,6 +685,14 @@ h3.product2-category {
 
 .section-3 .product-list .product-item .product-content {
     padding: 2vh 0 1vh;
+}
+
+.section-3 .category-item:not(:first-child){
+    margin-left: 16px;
+}
+
+.section-3 .category-item{
+    padding: 0.8vh 6vw;
 }
 
 /* category */
