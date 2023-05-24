@@ -1,0 +1,10 @@
+<svg id="구성_요소_136_1" data-name="구성 요소 136 – 1" xmlns="http://www.w3.org/2000/svg" width="80" height="35" viewBox="0 0 80 35">
+  <rect id="사각형_903" data-name="사각형 903" width="78" height="30" rx="6" transform="translate(2 3)" fill="#fff"/>
+  <g id="구성_요소_135_1" data-name="구성 요소 135 – 1" transform="translate(9 8)">
+    <text id="TICKET" transform="translate(0 15)" fill="#535e7a" font-size="19" font-family="Cafe24Ssurround, Cafe24 Ssurround" letter-spacing="-0.05em"><tspan x="0" y="0">TICKET</tspan></text>
+  </g>
+  <g id="패스_19656" data-name="패스 19656" fill="none">
+    <path d="M6,0H74a6,6,0,0,1,6,6V29a6,6,0,0,1-6,6H6a6,6,0,0,1-6-6V6A6,6,0,0,1,6,0Z" stroke="none"/>
+    <path d="M 6 4 C 4.897201538085938 4 4 4.897199630737305 4 6 L 4 29 C 4 30.1028003692627 4.897201538085938 31 6 31 L 74 31 C 75.10279846191406 31 76 30.1028003692627 76 29 L 76 6 C 76 4.897199630737305 75.10279846191406 4 74 4 L 6 4 M 6 0 L 74 0 C 77.31369781494141 0 80 2.686286926269531 80 6 L 80 29 C 80 32.31371307373047 77.31369781494141 35 74 35 L 6 35 C 2.686286926269531 35 0 32.31371307373047 0 29 L 0 6 C 0 2.686286926269531 2.686286926269531 0 6 0 Z" stroke="none" fill="#ffd5d5"/>
+  </g>
+</svg>

@@ -56,7 +56,7 @@
             </button>
             <div class="dropdown-menu menu-toogle-content" aria-labelledby="dropdownMenuButton">
                 <div>
-                    <a class="dropdown-item active" onclick="activateMenuToggle(event,0)" href="#">강아지</a>
+                    <a class="dropdown-item" onclick="activateMenuToggle(event,0)" href="#">강아지</a>
                     <a class="dropdown-item" onclick="activateMenuToggle(event,1)" href="#">고양이</a>
                 </div>
             </div>
@@ -1132,6 +1132,38 @@
         })
         function redirect_auth() {
             window.location.href = "../page_auth/index.html";
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            // Kích hoạt mục menu đầu tiên
+            activateMenuToggle(null, 1);
+        });
+
+        function activateMenuToggle(event, index) {
+            var menuItems = document.getElementsByClassName("dropdown-item");
+
+            var menuTop = document.querySelector('.menu');
+
+            // Xóa class active của tất cả các mục menu
+            for (var i = 0; i < menuItems.length; i++) {
+                menuItems[i].classList.remove("active");
+                menuTop.classList.remove('animal');
+            }
+
+            // Thêm class active cho mục menu được click hoặc mục menu đầu tiên
+            var menuItem = index !== null ? menuItems[index] : menuItems[0];
+            menuItem.classList.add("active");
+
+            if (index == 1) {
+                menuTop.classList.remove('animal');
+            } else {
+                menuTop.classList.add('animal');
+            }
+
+            // Ngăn chặn hành vi mặc định khi click vào liên kết
+            if (event) {
+                event.preventDefault();
+            }
         }
     </script>
 </body>

@@ -26,10 +26,8 @@
     }
 
     .content-slogan {
-        width: 70%;
-        margin-left: 10vw;
+        margin-left: 8vw;
         margin-right: 40vw;
-        font-size: 7vw;
         position: absolute;
         top: 13%;
         color: white;
@@ -138,7 +136,7 @@
 
     .card-ticket .img-animal {
         position: absolute;
-        top: 12%;
+        top: 15%;
         width: 100%;
     }
 
@@ -158,6 +156,7 @@
         position: absolute;
         top: 45%;
         left: 29%;
+        text-align: center;
     }
 
     .text-ticket>div {
@@ -168,15 +167,16 @@
         font-weight: bolder;
     }
 
-    .text-ticket h1 {
+    .text-ticket>img {
         margin-top: 0;
+        margin-bottom: 1vh;
     }
 
-    .content-popup-header h1.text {
+    /* .content-popup-header h1.text {
         font-size: 7vw;
         font-weight: bolder;
         margin-top: 1vh;
-    }
+    } */
 
     .close-img {
         z-index: 1000;
@@ -206,9 +206,9 @@
 
     #red_seal {
         position: absolute;
-        bottom: 7%;
+        bottom: 13%;
         z-index: 1;
-        left: 30%;
+        left: 29%;
         animation: animateZoom 0.5s
     }
 

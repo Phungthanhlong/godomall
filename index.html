@@ -16,8 +16,7 @@
   <div class="layout-main">
 
     <div class="bg-img-index">
-      <div class="content-slogan">함께 놀러 갈 애기를
-        선택해 발권해주세요</div>
+      <div class="content-slogan"><img src="./image/구성 요소 3 – 1.svg"></div>
       <div class="bg-img-element-2">
         <div class="buttom option-animal">
           <div class="dflex text-center">
@@ -33,7 +32,7 @@
         <div class="main-content-popup">
           <div class="content-popup-header">
             <div class="close-img" onclick="closePopup()"><img src="./image/popup_index/close-popup-select.svg"></div>
-            <h1 class="text-center text">티켓 발권 완료 !</h1>
+            <div class="text-center"><img src="./image/popup_index/구성 요소 14 – 1.svg"></div>
           </div>
           <div class="ticket image-content">
 
@@ -41,8 +40,8 @@
               <div id="img-dog-cat" class="img-animal">
               </div>
               <div class="text-ticket">
-                <h1 class="text-center">TICKET</h1>
-                <div><span>댕댕이와</span><span>스토어봄 둘러보기</span></div>
+                <img src="./image/popup_index/구성 요소 138 – 1.svg">
+                <div><span id="name"></span><span>스토어봄 둘러보기</span></div>
               </div>
               <div id="red_seal"><img src="./image/popup_index/readseal.svg"></div>
             </div>
@@ -73,14 +72,18 @@
     function showPopup(option) {
       var popup = document.getElementById("popup-select");
       var render_img = document.getElementById("img-dog-cat");
+      var render_name = document.getElementById("name");
       if(option == 1){
         var htmlCode = "<img class=\"dog\" src=\"./image/popup_index/dog.svg\">";
+        var nameAnimal = "댕댕이와";
         document.querySelector('.redirect.text-center').setAttribute('onclick','redirect(1)')
       }else{
         var htmlCode = "<img class=\"cat\" src=\"./image/popup_index/cat.svg\">";
+        var nameAnimal = "냥냥이와";
         document.querySelector('.redirect.text-center').setAttribute('onclick','redirect(2)')
       }
       render_img.innerHTML = htmlCode;
+      render_name.innerHTML = nameAnimal;
       popup.classList.remove("popup-container");
     }
     function closePopup() {
