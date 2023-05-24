@@ -1,0 +1,26 @@
+<svg id="구성_요소_21_1" data-name="구성 요소 21 – 1" xmlns="http://www.w3.org/2000/svg" width="43" height="43" viewBox="0 0 43 43">
+  <g id="사각형_10" data-name="사각형 10" fill="#fff" stroke="#d9d9d9" stroke-width="1.3">
+    <rect width="43" height="43" rx="8" stroke="none"/>
+    <rect x="0.65" y="0.65" width="41.7" height="41.7" rx="7.35" fill="none"/>
+  </g>
+  <g id="구성_요소_22_1" data-name="구성 요소 22 – 1" transform="translate(11.579 12.213)">
+    <g id="그룹_947" data-name="그룹 947">
+      <path id="패스_11836" data-name="패스 11836" d="M367.888,1366.629H360v-7.888h7.888Zm-7.012-.876h6.135v-6.135h-6.135Z" transform="translate(-360 -1358.741)" fill="#393939" stroke="#393939" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9"/>
+    </g>
+    <g id="그룹_948" data-name="그룹 948" transform="translate(11.079 0.877)">
+      <rect id="사각형_93" data-name="사각형 93" width="8.764" height="0.876" transform="translate(0 0)" fill="#393939" stroke="#393939" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9"/>
+    </g>
+    <g id="그룹_949" data-name="그룹 949" transform="translate(11.079 6.135)">
+      <rect id="사각형_94" data-name="사각형 94" width="8.764" height="0.876" transform="translate(0 0)" fill="#393939" stroke="#393939" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9"/>
+    </g>
+    <g id="그룹_950" data-name="그룹 950" transform="translate(0 10.517)">
+      <path id="패스_11837" data-name="패스 11837" d="M367.888,1402.629H360v-7.888h7.888Zm-7.012-.877h6.135v-6.135h-6.135Z" transform="translate(-360 -1394.741)" fill="#393939" stroke="#393939" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9"/>
+    </g>
+    <g id="그룹_951" data-name="그룹 951" transform="translate(11.079 11.394)">
+      <rect id="사각형_95" data-name="사각형 95" width="8.764" height="0.876" fill="#393939" stroke="#393939" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9"/>
+    </g>
+    <g id="그룹_952" data-name="그룹 952" transform="translate(11.079 16.653)">
+      <rect id="사각형_96" data-name="사각형 96" width="8.764" height="0.876" transform="translate(0 0)" fill="#393939" stroke="#393939" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9"/>
+    </g>
+  </g>
+</svg>
