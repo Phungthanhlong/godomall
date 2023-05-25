@@ -1,7 +1,7 @@
 @import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
 
 
-@media (max-width: 415px) {
+@media (max-width: 1300px) {
 
     /* Thiết lập CSS cho layout di động tại đây */
     .bg-img-index {
