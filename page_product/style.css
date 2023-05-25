@@ -201,12 +201,18 @@ nav {
 }
 
 .section-1 .bg-section img:nth-child(2) {
-    top: 6vw;
+    top: 3vw;
     left: 25%;
+    width: 50%;
 }
 
 .section-1 .bg-section img:nth-child(1) {
     margin-top: 0;
+    position: absolute;
+}
+
+.section-1 .countdown-content{
+    margin-top: -38%;
 }
 
 
@@ -571,6 +577,13 @@ h3.product2-category {
     overflow: hidden;
 }
 
+.section-3 .bg-section img:nth-child(2){
+    position: absolute;
+    top: 14vw;
+    left: 25%;
+    width: 50%;
+}
+
 .section-3 .countdown-title.countdown-title2 {
     background-image: url(./images/구성\ 요소\ 129\ –\ 1.svg);
 }
@@ -729,7 +742,6 @@ h3.product2-category {
 /* snack food */
 .bg-section {
     min-height: 100vw;
-    margin-bottom: -35vh;
     position: relative;
     z-index: -1;
     overflow: hidden;
@@ -743,9 +755,9 @@ h3.product2-category {
 
 .bg-section img:nth-child(2) {
     position: absolute;
-    top: 4%;
-    left: 20%;
-    right: 0;
+    top: 2vw;
+    left: 16%;
+    width: 50%;
 }
 
 .section-4 .bg-section {
@@ -753,8 +765,15 @@ h3.product2-category {
 }
 
 .section-4 .bg-section img:nth-child(2) {
-    top: 34vw;
-    left: 15vw;
+    top: 35vw;
+    left: 18%;
+    width: 62%;
+}
+
+.section-5 .bg-section img:nth-child(1),
+.section-6 .bg-section img:nth-child(1),
+.section-7 .bg-section img:nth-child(1){
+    position: absolute;
 }
 
 .section-5 .bg-section img:nth-child(2) {
@@ -764,7 +783,9 @@ h3.product2-category {
 
 .section-5 .block-snack-food {
     padding: 10.8vw 7vw 0;
+    margin-top: -38%;
 }
+
 
 .section-5 .product-content {
     padding: 4vw 0 2vw;
@@ -792,10 +813,17 @@ h3.product2-category {
     color: #7E738E;
 }
 
+.section-6 .block-snack-food{
+    margin-top: -27%;
+}
 
 .section-6 .bg-section img:nth-child(2) {
-    top: 12%;
-    left: 24%;
+    top: 16%;
+    left: 26%;
+}
+
+.section-7 .block-snack-food{
+    margin-top: -30%;
 }
 
 .section-7 .product-content {
@@ -804,7 +832,7 @@ h3.product2-category {
 
 .section-7 .bg-section img:nth-child(2) {
     top: 17%;
-    left: 27%;
+    left: 25%;
 }
 
 .section-7 .countdown-title.countdown-title2 {
@@ -986,63 +1014,5 @@ h3.product2-category {
     body {
         font-size: 14px;
         /* Font cho màn hình nhỏ hơn */
-    }
-}
-
-@media screen and (max-height: 933px) {
-    .section-1 .bg-section img:nth-child(2) {
-        top: 7%;
-        left: 27%;
-    }
-    .bg-section img:nth-child(2) {
-        top: 7%;
-        left: 22%;
-    }
-    .section-4 .bg-section img:nth-child(2) {
-        top: 36vw;
-        left: 18vw;
-    }
-    .section-5 .bg-section img:nth-child(2) {
-        top: 19%;
-    }
-    .section-6 .bg-section img:nth-child(2) {
-        top: 14%;
-        left: 27%;
-    }
-    .section-7 .bg-section img:nth-child(2) {
-        top: 19%;
-        left: 29%;
-    }
-}
-
-@media screen and (max-height: 844px) {
-    .bg-section {
-        margin-bottom: -39vh;
-    }
-}
-
-@media screen and (max-width: 375px) {
-    .section-1 .bg-section img:nth-child(2) {
-        top: 7%;
-        left: 24%;
-    }
-    .bg-section img:nth-child(2) {
-        top: 3%;
-        left: 17%;
-    }
-    .section-4 .bg-section img:nth-child(2) {
-        left: 12vw;
-    }
-    .section-5 .bg-section img:nth-child(2) {
-        top: 21%;
-        left: 28vw;
-    }
-    .section-6 .bg-section img:nth-child(2) {
-        top: 14%;
-        left: 23%;
-    }
-    .section-7 .bg-section img:nth-child(2) {
-        top: 20%;
-        left: 25%;
     }
 }
