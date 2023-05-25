@@ -12,8 +12,18 @@
     overflow: hidden;
     background-position: top 0vh left 26%;
     background-repeat: no-repeat;
-    background-size: cover;
+
 }
+/* 
+.bg-img-index::after {
+    content: '';
+    position: absolute;
+    background-image: url(../image/구성\ 요소\ 136\ –\ 1.svg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: top 48.2% left 51%;
+} */
 
 .bg-img-element-2 {
     position: absolute;
