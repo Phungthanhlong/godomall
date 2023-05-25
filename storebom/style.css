@@ -175,7 +175,7 @@ header .header-center {
 .top-menu ul li a {
     text-decoration: none;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     color: #141414;
 }
 
@@ -261,11 +261,12 @@ nav.menu-container {
 }
 
 .product-prioritize .priority-group>div {
-    padding: 10px 30px;
+    padding: 14px 30px;
     border-radius: 9px;
     background-color: #EDEDED;
     color: #27272799;
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 16.5px;
 }
 
 .priority-group>div.active {
@@ -319,8 +320,9 @@ nav.menu-container {
 }
 
 .product .product-content>p {
-    font-weight: 600;
+    font-weight: 400;
     color: #272727;
+    font-size: 16.5px;
 }
 
 .product .product-content>p:not(:last-child){
@@ -331,6 +333,10 @@ nav.menu-container {
     padding-top: 10px;
     padding-bottom: 10px;
     color: #989898;
+}
+
+.product-price-content-cost>del{
+    font-size: 18px;
 }
 
 .product-price-content-cost-2,
@@ -352,13 +358,17 @@ nav.menu-container {
 }
 
 .product-price-content .product-price {
-    font-size: 20px;
+    font-size: 18.5px;
     font-weight: 600;
 }
 
 .reviews {
     display: flex;
     color: gray;
+}
+
+.reviews:not(.star){
+    font-size: 14px;
 }
 
 .reviews .star {
@@ -398,7 +408,7 @@ nav.menu-container {
 .filter-checkbox {
     position: relative;
     padding-left: 30px;
-    padding-top: 6px;
+    padding-top: 4px;
     cursor: pointer;
     font-size: 17px;
     -webkit-user-select: none;
@@ -419,7 +429,7 @@ nav.menu-container {
     position: absolute;
     top: 0;
     left: 0;
-    height: 23px;
+    height: 24px;
     width: 24px;
     background-color: #D6D6D6;
     border-radius: 50%;
