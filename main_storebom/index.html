@@ -1,0 +1,214 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- css default -->
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <!-- css default -->
+    <!-- css slick slider -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- css slick slider -->
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-top">
+                <ul class="gd-tab-link">
+                    <li><a href="">로그인 / 회원가입</a></li>
+                    <li><a href="">장바구니</a></li>
+                    <li><a href="">주문배송조회</a></li>
+                    <li><a href="">마이페이지</a></li>
+                    <li><a href="">고객센터</a></li>
+                </ul>
+            </div>
+
+            <div class="header-center">
+                <div class="logo">
+                    <img src="./image/logo-storebom-trans-kr.png">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle menu-toogle" type="button"
+                            id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span><img src="./image/구성 요소 35 – 1.svg"></span>
+                            <span>강아지</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="header-search search-wrapper">
+                    <div class="input-holder">
+                        <input type="text" class="search-input" placeholder="뜨거운 햇빛, 예쁘게 가리자" />
+                        <button class="search-icon" onclick="searchToggle(this, event);"><img
+                                src="./image/구성 요소 64 1.svg"></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-bottom">
+                <div class="top-menu">
+                    <ul>
+                        <li>
+                            <img src="./image/구성 요소 82 1.svg">
+                            <a href="">전체 카테고리</a>
+                        </li>
+                        <li><a href="">집사랑 나랑</a></li>
+                        <li class="active"><a href="">푸드코트</a></li>
+                        <li><a href="">유통기한 임박 할인</a></li>
+                        <li><a href="">BEST</a></li>
+                        <li><a href="">NEW</a></li>
+                        <li><a href="">BRAND</a></li>
+                        <li><a href="">이벤트</a></li>
+                        <li><a href="">STORYBOM</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="slider-wrap silder-banner-header">
+            <div><a><img src="./imagetest/8e6d670347452107b555ee3dad010bee_29270.jpg" alt="" title=""></a></div>
+            <div><a><img src="./imagetest/8e6d670347452107b555ee3dad010bee_82886.jpg" alt="" title=""></a></div>
+            <div><a><img src="./imagetest/d64e169b4fa956e0cf935954e5671efd_14291.jpg" alt="" title=""></a></div>
+        </div>
+    </nav>
+    <main>
+        <div class="homepage">
+            <section class="section-1">
+                <div class="bg-section">
+                    <img src="./image/구성 요소 120 – 1.svg" />
+                </div>
+                <div class="countdown-content">
+                    <div class="countdown-title text-center">
+                        <img src="./image/구성 요소 128 – 1.svg">
+                    </div>
+                    <div class="countdown">
+                        <ul class="countdown-time" id="countdown">
+                            <li>0</li>
+                            <li>9</li> :
+                            <li>1</li>
+                            <li>5</li> :
+                            <li>4</li>
+                            <li>3</li>
+                        </ul>
+
+                        <div class="hot-discount">
+                            <div class="product-wrap">
+                                <div class="slider-products">
+
+                                    <div class="product">
+                                        <div class="product-item">
+                                            <div class="product-image">
+                                                <img
+                                                    src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg" />
+                                                <span class="sale">52%</span>
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-category gray">아이코닉</p>
+                                                <p class="product-name">강아지전용 발 마사지크림</p>
+                                                <div class="product-price-content">
+                                                    <p class="product-discount red">52%</p>
+                                                    <p class="product-price">29,900원</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product">
+                                        <div class="product-item">
+                                            <div class="product-image">
+                                                <img
+                                                    src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg" />
+                                                <span class="sale">52%</span>
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-category gray">아이코닉</p>
+                                                <p class="product-name">강아지전용 발 마사지크림</p>
+                                                <div class="product-price-content">
+                                                    <p class="product-discount red">52%</p>
+                                                    <p class="product-price">29,900원</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product">
+                                        <div class="product-item">
+                                            <div class="product-image">
+                                                <img
+                                                    src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg" />
+                                                <span class="sale">52%</span>
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-category gray">아이코닉</p>
+                                                <p class="product-name">강아지전용 발 마사지크림</p>
+                                                <div class="product-price-content">
+                                                    <p class="product-discount red">52%</p>
+                                                    <p class="product-price">29,900원</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product">
+                                        <div class="product-item">
+                                            <div class="product-image">
+                                                <img
+                                                    src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg" />
+                                                <span class="sale">52%</span>
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-category gray">아이코닉</p>
+                                                <p class="product-name">강아지전용 발 마사지크림</p>
+                                                <div class="product-price-content">
+                                                    <p class="product-discount red">52%</p>
+                                                    <p class="product-price">29,900원</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-2">
+                <div class="bg-section">
+                    <img src="./image/구성 요소 121 – 1.svg" />
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+<!-- Js slick slider -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<!-- Js slick slider -->
+<script>
+    $('.slider-wrap').slick(
+        {
+            draggable: false,
+            autoplay: true,
+            dots: true,
+            infinite: true,
+            autoplaySpeed: 3000,
+            speed: 1300,
+            slidesToShow: 1,
+        }
+    );
+
+    $('.slider-products').slick({
+        centerMode: true,
+        centerPadding: '0px 35px',
+        slidesToShow: 3,
+        dots: true,
+    });
+
+</script>
+
+</html>

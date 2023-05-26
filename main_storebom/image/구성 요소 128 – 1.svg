@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="432.086" height="130.273" viewBox="0 0 432.086 130.273">
+  <defs>
+    <filter id="사각형_683" x="0" y="0" width="432.086" height="130.273" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="구성_요소_128_1" data-name="구성 요소 128 – 1" transform="translate(9 9)">
+    <g id="구성_요소_42_1" data-name="구성 요소 42 – 1">
+      <g transform="matrix(1, 0, 0, 1, -9, -9)" filter="url(#사각형_683)">
+        <g id="사각형_683-2" data-name="사각형 683" transform="translate(9 9)" fill="#fff6dd" stroke="#fff" stroke-width="10">
+          <rect width="414.086" height="112.273" rx="28" stroke="none"/>
+          <rect x="5" y="5" width="404.086" height="102.273" rx="23" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <text id="오늘만_특가_회전목마" data-name="오늘만 특가 회전목마" transform="translate(39.883 64.428)" fill="#726459" font-size="35" font-family="SDGdGulim, Sandoll Gyeokdonggulim"><tspan x="0" y="0">오늘만 특가 회전목마</tspan></text>
+  </g>
+</svg>
