@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="480.979" height="130" viewBox="0 0 480.979 130">
+  <defs>
+    <filter id="사각형_869" x="0" y="0" width="480.979" height="130" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="구성_요소_130_1" data-name="구성 요소 130 – 1" transform="translate(9 9)">
+    <g transform="matrix(1, 0, 0, 1, -9, -9)" filter="url(#사각형_869)">
+      <g id="사각형_869-2" data-name="사각형 869" transform="translate(9 9)" fill="#e9f2f0" stroke="#fff" stroke-width="10">
+        <rect width="462.979" height="112" rx="29" stroke="none"/>
+        <rect x="5" y="5" width="452.979" height="102" rx="24" fill="none"/>
+      </g>
+    </g>
+    <text id="바이킹은_레시피를_싣고" data-name="바이킹은 레시피를 싣고" transform="translate(46.146 64.546)" fill="#768683" font-size="35" font-family="SDGdGulim, Sandoll Gyeokdonggulim"><tspan x="0" y="0">바이킹은 레시피를 싣고</tspan></text>
+  </g>
+</svg>
