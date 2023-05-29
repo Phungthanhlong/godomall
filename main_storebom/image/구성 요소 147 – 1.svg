@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="506.773" height="131" viewBox="0 0 506.773 131">
+  <defs>
+    <filter id="사각형_876" x="0" y="0" width="506.773" height="131" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="구성_요소_147_1" data-name="구성 요소 147 – 1" transform="translate(9 9)">
+    <g id="구성_요소_82_1" data-name="구성 요소 82 – 1">
+      <g transform="matrix(1, 0, 0, 1, -9, -9)" filter="url(#사각형_876)">
+        <g id="사각형_876-2" data-name="사각형 876" transform="translate(9 9)" fill="#f9f2fc" stroke="#fff" stroke-width="10">
+          <rect width="488.773" height="113" rx="27" stroke="none"/>
+          <rect x="5" y="5" width="478.773" height="103" rx="22" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <text id="회전그네는_기획전을_싣고" data-name="회전그네는 기획전을 싣고" transform="translate(39.91 66.5)" fill="#7e738e" font-size="35" font-family="SDGdGulim, Sandoll Gyeokdonggulim"><tspan x="0" y="0">회전그네는 기획전을 싣고</tspan></text>
+  </g>
+</svg>

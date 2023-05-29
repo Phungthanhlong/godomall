@@ -343,7 +343,9 @@ header .header-center {
 .section-1 .countdown-content,
 .section-2 .countdown-content,
 .section-3 .countdown-content,
-.section-4 .countdown-content {
+.section-4 .countdown-content,
+.section-5 .countdown-content,
+.section-6 .countdown-content {
     position: absolute;
     z-index: 1;
     top: 0;
@@ -402,7 +404,9 @@ header .header-center {
 .section-1 .product-wrap,
 .section-2 .product-wrap,
 .section-3 .product-wrap,
-.section-4 .product-wrap {
+.section-4 .product-wrap,
+.section-5 .product-wrap,
+.section-6 .product-wrap {
     width: 800px;
 }
 
@@ -753,13 +757,16 @@ ul li a {
 
 /* menu */
 /* product */
-.section-3 .grid-product {
+.section-3 .grid-product,
+.section-5 .grid-product,
+.section-6 .grid-product {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 18px;
 }
 
-.section-3 .sale {
+.section-3 .sale,
+.section-5 .sale {
     background-image: none;
     width: 30px;
     height: 30px;
@@ -769,17 +776,19 @@ ul li a {
     right: 6%;
 }
 
-.section-3 .sale img {
+.section-3 .sale img,
+.section-5 .sale img {
     width: 14px;
     height: 14px;
 }
 
-.section-3 .product-item {
+.section-3 .product-item,
+.section-5 .product-item {
     box-shadow: unset;
     border-radius: unset;
 }
 
-.section-3 .product-item .product-image img {
+.section-3 .product-item .product-image img{
     border-radius: 15px;
 }
 
@@ -798,12 +807,14 @@ ul li a {
     font-weight: bold;
 }
 
-.section-3 .product-item .product-content {
+.section-3 .product-item .product-content,
+.section-5 .product-item .product-content {
     padding: 15px 0;
     text-align: left;
 }
 
-.section-3 .product-price-content {
+.section-3 .product-price-content,
+.section-5 .product-price-content {
     margin-bottom: 5px;
 }
 
@@ -811,7 +822,8 @@ ul li a {
     color: gray;
 }
 
-.section-3 .product-item .product-image img {
+.section-3 .product-item .product-image img,
+.section-5 .product-item .product-image img {
     max-height: 143px;
 }
 
@@ -820,8 +832,7 @@ ul li a {
 /* section-4 */
 .section-4 {
     position: relative;
-    max-height: 1505px;
-    margin-bottom: 88px;
+    max-height: 1644px;
     overflow: hidden;
 }
 
@@ -863,7 +874,7 @@ ul li a {
     border-radius: 25px;
 }
 
-.section-4 .slider-products .product:not(.slick-active.slick-center) {
+.section-4 .product:not(.slick-active.slick-center) {
     opacity: 1;
     transform: scale(0.8);
 }
@@ -876,6 +887,7 @@ ul li a {
 .section-4 .product-item .product-image img {
     max-width: 196px;
     max-height: 186px;
+    border-radius: 18px;
 }
 
 .section-4 .product-item .product-content {
@@ -905,3 +917,75 @@ ul li a {
 }
 
 /* section-4 */
+
+/* section-5 */
+.section-5 {
+    position: relative;
+    max-height: 1620px;
+    overflow: hidden;
+    margin-bottom: 88px;
+}
+
+.section-5 .countdown-content .countdown-title img {
+    margin-top: -3.3vw;
+}
+
+.section-5 .bg-section img {
+    width: calc(100% + 15vw);
+    margin-left: -5.1vw;
+}
+.section-5 .countdown-content {
+    margin-top: 28.5vw;
+}
+.section-5 .countdown-content .countdown-title {
+    margin-bottom: 66px;
+}
+.section-5 .feature-product-title {
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 28px;
+    line-height: 1.2;
+}
+/* section-5 */
+/* section-6 */
+.section-6 {
+    position: relative;
+    max-height: 1644px;
+    overflow: hidden;
+}
+
+.section-6 .countdown-content .countdown-title img {
+    margin-top: -3.4vw;
+}
+
+.section-6 .bg-section img {
+    width: calc(100% + 13vw);
+    margin-left: -5.1vw;
+}
+.section-6 .countdown-content {
+    margin-top: 27.5vw;
+}
+.section-6 .countdown-content .countdown-title {
+    margin-bottom: 57px;
+}
+.section-6 .product-item{
+    box-shadow: none;
+}
+.section-6 .grid-product {
+    grid-template-columns: repeat(2, 1fr);
+}
+.section-6 .product-image img{
+    max-width: 353px;
+    max-height: 218px;
+    border-radius: 24px;
+}
+.section-6 .product-item{
+    border-radius: unset;
+}
+.section-6 .product-item .product-content{
+    padding: 15px 0;
+}
+.section-6 .product-item .product-content>div{
+    margin-bottom: 5px;
+}
+/* section-6 */
