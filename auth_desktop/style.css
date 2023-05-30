@@ -305,8 +305,8 @@ header .header-center {
 .img-auth::after {
     content: '';
     position: absolute;
-    bottom: 4%;
-    right: 15%;
+    bottom: -8%;
+    right: 13%;
     width: 50%;
     height: 60%;
     background: url(./image/구성\ 요소\ 92\ –\ 1.svg);
