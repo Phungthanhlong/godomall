@@ -141,7 +141,31 @@ header .header-center {
 }
 
 /* seach-header */
-
+.dropdown {
+    position: relative;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 115%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
 .menu-toogle {
     background-color: #fff;
     padding: 5px 8px;
@@ -169,6 +193,38 @@ header .header-center {
 .menu-toogle span {
     color: #6995F5;
     font-weight: 6000;
+}
+
+.menu-toogle-content {
+    border-radius: 11px;
+    border: 2px solid #6995F5;
+    min-width: 30px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu-toogle-content div {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-toogle-content .dropdown-item {
+    padding: 10px 25px;
+    color: #3C3C3C;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.menu-toogle-content .dropdown-item.active {
+    background-color: #6995F5;
+    color: #fff;
+}
+
+.open>.dropdown-menu {
+    display: block;
 }
 
 /* menu-top */
@@ -345,7 +401,8 @@ header .header-center {
 .section-3 .countdown-content,
 .section-4 .countdown-content,
 .section-5 .countdown-content,
-.section-6 .countdown-content {
+.section-6 .countdown-content,
+.section-7 .countdown-content {
     position: absolute;
     z-index: 1;
     top: 0;
@@ -396,7 +453,8 @@ header .header-center {
 .hot-discount,
 .product-section-2,
 .product-section-3,
-.product-section-4 {
+.product-section-4,
+.product-section-7 {
     display: flex;
     justify-content: center;
 }
@@ -405,12 +463,13 @@ header .header-center {
 .section-2 .product-wrap,
 .section-3 .product-wrap,
 .section-4 .product-wrap,
-.section-5 .product-wrap,
-.section-6 .product-wrap {
+.section-5 .product-wrap{
     width: 800px;
 }
 
-.slider-products .product {
+.slider-products .product,
+.slider-products-three .product,
+.slider-products-two .product {
     opacity: 0.2;
     transition: all 300ms ease;
     transform: scale(0.9);
@@ -688,11 +747,13 @@ ul li a {
     margin-bottom: 88px;
 }
 
-.section-3 .bg-section {
+.section-3 .bg-section,
+.section-6 .bg-section {
     overflow: hidden;
 }
 
-.section-3 .countdown-content {
+.section-3 .countdown-content,
+.section-6 .countdown-content{
     height: auto;
 }
 
@@ -762,7 +823,7 @@ ul li a {
 .section-6 .grid-product {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 18px;
+    gap: 47px;
 }
 
 .section-3 .sale,
@@ -921,7 +982,7 @@ ul li a {
 /* section-5 */
 .section-5 {
     position: relative;
-    max-height: 1620px;
+    max-height: 1654px;
     overflow: hidden;
     margin-bottom: 88px;
 }
@@ -951,7 +1012,7 @@ ul li a {
 .section-6 {
     position: relative;
     max-height: 1644px;
-    overflow: hidden;
+    margin-bottom: 88px;
 }
 
 .section-6 .countdown-content .countdown-title img {
@@ -967,6 +1028,9 @@ ul li a {
 }
 .section-6 .countdown-content .countdown-title {
     margin-bottom: 57px;
+}
+.section-6 .product-wrap {
+    width: 756px;
 }
 .section-6 .product-item{
     box-shadow: none;
@@ -986,6 +1050,132 @@ ul li a {
     padding: 15px 0;
 }
 .section-6 .product-item .product-content>div{
-    margin-bottom: 5px;
+    margin-bottom: 9px;
+    font-size: 15px;
+}
+.section-6 .product-item .product-content>div:first-child{
+    font-size: 18px;   
+}
+.section-6 .product-item .product-content .bold,
+.section-6 .product-content .percent{
+    font-weight: 500;
+}
+.section-6 .product-item .product-content>div:last-child,
+.product-flex .list-image{
+    display: flex;
+    justify-content: space-between;
+}
+.product-flex .list-image{
+    gap: 15px;
+}
+.product-flex .list-image img{
+    max-width: 77px;
+    max-height: 75px;
+    border-radius: 8px;
 }
 /* section-6 */
+/* section-7 */
+.section-7 {
+    position: relative;
+    max-height: 1095px;
+    overflow: hidden;
+    margin-bottom: 88px;
+}
+.section-7 .bg-section img {
+    width: calc(100% + 12vw);
+    margin-left: -5.1vw;
+}
+.section-7 .countdown-content {
+    margin-top: 27.5vw;
+}
+.section-7 .countdown-content .countdown-title{
+    position: absolute;
+    left: 38%;
+}
+.section-7 .countdown-content .countdown-title img {
+    margin-top: -3.4vw;
+}
+.section-7 .countdown  {
+    margin-top: 135px;
+}
+.section-7 .product-wrap {
+    width: 920px;
+}
+.section-7 .product{
+    padding: 0 16px;
+}
+.section-7 .product:not(:nth-child(even)){
+    margin-top: 50px;
+    transition: all 300ms ease;
+}
+
+.section-7 .product-item{
+    box-shadow: none;
+    border-radius: unset;
+}
+
+.section-7 .product-item .product-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-7 .product-item .product-image{
+    border-radius: 240px;
+    overflow: hidden;
+}
+
+.section-7 .product-item .product-image img{
+    min-width: 130px;
+    min-height: 207px;
+    object-fit: unset;
+}
+
+.section-7 .product-item .product-content{
+    padding: 15px 0;
+}
+
+.section-7 .product-item .product-content p{
+    font-size: 15px;
+}
+.section-7 .product-price-content .product-price{
+    font-weight: 600;
+}
+
+.section-7 .product-section-7 .product-wrap{
+    position: relative;
+}
+
+.section-7 .product-section-7 .product-wrap:after,
+.section-7 .product-section-7 .product-wrap::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    width: 16.66%;
+    height: 100%;
+    background: white;
+    opacity: 0.8;
+}
+.section-7 .product-section-7 .product-wrap:after{
+    left: 0;
+}
+.section-7 .product-section-7 .product-wrap::before{
+    right: 0;
+    z-index: 1;
+}
+.section-7 .product-wrap .slick-prev{
+    background-image:url(./image/구성\ 요소\ 144\ –\ 1.svg)
+}
+.section-7 .product-wrap .slick-next{
+    background-image:url(./image/구성\ 요소\ 145\ –\ 1.svg)
+}
+.section-7 .product-wrap .slick-dots li.slick-active button{
+    background: #AEABD8;
+}
+.section-7 .slick-slide{
+    height: auto;
+}
+.section-7 .product-wrap .slick-list{
+    padding-bottom: 62px;
+}
+/* section-7 */

@@ -33,10 +33,16 @@
                     <img src="./image/logo-storebom-trans-kr.png">
                     <div class="dropdown">
                         <button class="btn btn-secondary dropdown-toggle menu-toogle" type="button"
-                            id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            id="dropdownMenuButton">
                             <span><img src="./image/구성 요소 35 – 1.svg"></span>
                             <span>강아지</span>
                         </button>
+                        <div class="dropdown-menu menu-toogle-content">
+                            <div>
+                                <a class="dropdown-item active" onclick="activateMenuToggle(event,0)" href="#">강아지</a>
+                                <a class="dropdown-item" onclick="activateMenuToggle(event,1)" href="#">고양이</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="header-search search-wrapper">
@@ -601,7 +607,7 @@
                         <div class="product-section-4 tab-1">
                             <div class="product-wrap">
                                 <div class="feature-product-title">내 아가를 찾아주세요</div>
-                                <div class="slider-products two">
+                                <div class="slider-products-two">
                                     <div class="product">
                                         <div class="product-item">
                                             <div class="product-image">
@@ -724,7 +730,7 @@
                         <div class="product-section-4 tab-2">
                             <div class="product-wrap">
                                 <div class="feature-product-title">내 아가를 찾아주세요</div>
-                                <div class="slider-products three">
+                                <div class="slider-products-three">
                                     <div class="product">
                                         <div class="product-item">
                                             <div class="product-image">
@@ -1183,15 +1189,95 @@
                                                         src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg" />
                                                 </div>
                                                 <div class="product-content">
-                                                    <div><span>보송보송</span><span>우리 애기 귀저기</span></div>
-                                                    <div><span class="gray">키치한 디자인 스티커 구경하고 가세요 !</span><span class="red">~25%</span></div>
+                                                    <div><span class="bold">보송보송</span><span>우리 애기 귀저기</span></div>
+                                                    <div><span class="gray">키치한 디자인 스티커 구경하고 가세요 !</span><span
+                                                            class="red percent">~25%</span></div>
                                                 </div>
                                             </div>
                                             <div class="list-image">
-                                                <img src="">
-                                                <img src="">
-                                                <img src="">
-                                                <img src="">
+                                                <img
+                                                    src="https://image.bom.co.kr/product/detail/AGL/2209280417148006/_200.jpg">
+                                                <img
+                                                    src="https://image.bom.co.kr/product/detail/BPS/2212190118193668/_200.jpg">
+                                                <img
+                                                    src="https://image.bom.co.kr/product/detail/AKI/2212221346073830/_200.jpg">
+                                                <img
+                                                    src="https://image.bom.co.kr/product/detail/ALU/2010310555391418/_200.jpg">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-flex">
+                                        <div class="product">
+                                            <div class="product-item">
+                                                <div class="product-image">
+                                                    <img
+                                                        src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg" />
+                                                </div>
+                                                <div class="product-content">
+                                                    <div><span class="bold">보송보송</span><span>우리 애기 귀저기</span></div>
+                                                    <div><span class="gray">키치한 디자인 스티커 구경하고 가세요 !</span><span
+                                                            class="red percent">~25%</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="list-image">
+                                                <img
+                                                    src="https://image.bom.co.kr/product/detail/AGL/2209280417148006/_200.jpg">
+                                                <img
+                                                    src="https://image.bom.co.kr/product/detail/BPS/2212190118193668/_200.jpg">
+                                                <img
+                                                    src="https://image.bom.co.kr/product/detail/AKI/2212221346073830/_200.jpg">
+                                                <img
+                                                    src="https://image.bom.co.kr/product/detail/ALU/2010310555391418/_200.jpg">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-flex">
+                                        <div class="product">
+                                            <div class="product-item">
+                                                <div class="product-image">
+                                                    <img
+                                                        src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg" />
+                                                </div>
+                                                <div class="product-content">
+                                                    <div><span class="bold">보송보송</span><span>우리 애기 귀저기</span></div>
+                                                    <div><span class="gray">키치한 디자인 스티커 구경하고 가세요 !</span><span
+                                                            class="red percent">~25%</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="list-image">
+                                                <img
+                                                    src="https://image.bom.co.kr/product/detail/AGL/2209280417148006/_200.jpg">
+                                                <img
+                                                    src="https://image.bom.co.kr/product/detail/BPS/2212190118193668/_200.jpg">
+                                                <img
+                                                    src="https://image.bom.co.kr/product/detail/AKI/2212221346073830/_200.jpg">
+                                                <img
+                                                    src="https://image.bom.co.kr/product/detail/ALU/2010310555391418/_200.jpg">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-flex">
+                                        <div class="product">
+                                            <div class="product-item">
+                                                <div class="product-image">
+                                                    <img
+                                                        src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg" />
+                                                </div>
+                                                <div class="product-content">
+                                                    <div><span class="bold">보송보송</span><span>우리 애기 귀저기</span></div>
+                                                    <div><span class="gray">키치한 디자인 스티커 구경하고 가세요 !</span><span
+                                                            class="red percent">~25%</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="list-image">
+                                                <img
+                                                    src="https://image.bom.co.kr/product/detail/AGL/2209280417148006/_200.jpg">
+                                                <img
+                                                    src="https://image.bom.co.kr/product/detail/BPS/2212190118193668/_200.jpg">
+                                                <img
+                                                    src="https://image.bom.co.kr/product/detail/AKI/2212221346073830/_200.jpg">
+                                                <img
+                                                    src="https://image.bom.co.kr/product/detail/ALU/2010310555391418/_200.jpg">
                                             </div>
                                         </div>
                                     </div>
@@ -1201,7 +1287,146 @@
                     </div>
                 </div>
             </section>
+            <section class="section-7">
+                <div class="bg-section">
+                    <img src="./image/구성 요소 127 – 1.svg" />
+                </div>
+                <div class="countdown-content">
+                    <div class="countdown-title">
+                        <img src="./image/구성 요소 146 – 1.svg">
+                    </div>
+                    <div class="countdown">
+                        <div class="product-section-7">
+                            <div class="product-wrap">
+                                <div class="slider-products-seven">
 
+                                    <div class="product">
+                                        <div class="product-item">
+                                            <div class="product-image">
+                                                <img
+                                                    src="https://image.bom.co.kr/product/detail/BPS/2212190118193668/_200.jpg" />
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-name">토토로2단4LOCK수첩</p>
+                                                <div class="product-price-content">
+                                                    <p class="product-discount red">52%</p>
+                                                    <p class="product-price">29,900원</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product">
+                                        <div class="product-item">
+                                            <div class="product-image">
+                                                <img
+                                                    src="https://image.bom.co.kr/product/detail/ALU/2010310555391418/_200.jpg" />
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-name">토토로2단4LOCK수첩</p>
+                                                <div class="product-price-content">
+                                                    <p class="product-discount red">52%</p>
+                                                    <p class="product-price">29,900원</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product">
+                                        <div class="product-item">
+                                            <div class="product-image">
+                                                <img
+                                                    src="https://image.bom.co.kr/product/detail/BPS/2212190118193668/_200.jpg" />
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-name">토토로2단4LOCK수첩</p>
+                                                <div class="product-price-content">
+                                                    <p class="product-discount red">52%</p>
+                                                    <p class="product-price">29,900원</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product">
+                                        <div class="product-item">
+                                            <div class="product-image">
+                                                <img
+                                                    src="https://image.bom.co.kr/product/detail/ALU/2010310555391418/_200.jpg" />
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-name">토토로2단4LOCK수첩</p>
+                                                <div class="product-price-content">
+                                                    <p class="product-discount red">52%</p>
+                                                    <p class="product-price">29,900원</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product">
+                                        <div class="product-item">
+                                            <div class="product-image">
+                                                <img
+                                                    src="https://image.bom.co.kr/product/detail/BPS/2212190118193668/_200.jpg" />
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-name">토토로2단4LOCK수첩</p>
+                                                <div class="product-price-content">
+                                                    <p class="product-discount red">52%</p>
+                                                    <p class="product-price">29,900원</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product">
+                                        <div class="product-item">
+                                            <div class="product-image">
+                                                <img
+                                                    src="https://image.bom.co.kr/product/detail/ALU/2010310555391418/_200.jpg" />
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-name">토토로2단4LOCK수첩</p>
+                                                <div class="product-price-content">
+                                                    <p class="product-discount red">52%</p>
+                                                    <p class="product-price">29,900원</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product">
+                                        <div class="product-item">
+                                            <div class="product-image">
+                                                <img
+                                                    src="https://image.bom.co.kr/product/detail/BPS/2212190118193668/_200.jpg" />
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-name">토토로2단4LOCK수첩</p>
+                                                <div class="product-price-content">
+                                                    <p class="product-discount red">52%</p>
+                                                    <p class="product-price">29,900원</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product">
+                                        <div class="product-item">
+                                            <div class="product-image">
+                                                <img
+                                                    src="https://image.bom.co.kr/product/detail/ALU/2010310555391418/_200.jpg" />
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-name">토토로2단4LOCK수첩</p>
+                                                <div class="product-price-content">
+                                                    <p class="product-discount red">52%</p>
+                                                    <p class="product-price">29,900원</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
     </main>
 </body>
 <!-- Js slick slider -->
@@ -1211,6 +1436,20 @@
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <!-- Js slick slider -->
 <script>
+
+    $(document).ready(function () {
+        $('#dropdownMenuButton').click(function () {
+
+            var parentElement = $('#dropdownMenuButton').parent();
+            parentElement.toggleClass('open');
+        });
+    });
+
+    $('.slider-products-seven').slick({
+        slidesToShow: 6,
+        dots: true,
+    });
+
     $('.slider-wrap').slick(
         {
             draggable: false,
@@ -1230,14 +1469,14 @@
         dots: true,
     });
 
-    $('.slider-products.two').slick({
+    $('.slider-products-two').slick({
         centerMode: true,
         centerPadding: '0px 35px',
         slidesToShow: 3,
         dots: true,
     });
 
-    $('.slider-products.three').slick({
+    $('.slider-products-three').slick({
         centerMode: true,
         centerPadding: '0px 35px',
         slidesToShow: 3,
@@ -1266,6 +1505,30 @@
             event.preventDefault();
         }
     }
+    function activateMenuToggle(event, index) {
+            var menuItems = document.getElementsByClassName("dropdown-item");
+
+            var menuTop = document.querySelector('.menu');
+
+            // Xóa class active của tất cả các mục menu
+            for (var i = 0; i < menuItems.length; i++) {
+                menuItems[i].classList.remove("active");
+            }
+
+            // Thêm class active cho mục menu được click hoặc mục menu đầu tiên
+            var menuItem = index !== null ? menuItems[index] : menuItems[0];
+            menuItem.classList.add("active");
+
+            // Ngăn chặn hành vi mặc định khi click vào liên kết
+            if (event) {
+                event.preventDefault();
+            }
+        }
+    
+
+
 </script>
+
+</div>
 
 </html>
