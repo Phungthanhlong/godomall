@@ -143,6 +143,7 @@ header .header-center {
 /* seach-header */
 .dropdown {
     position: relative;
+    width: 7vw;
 }
 .dropdown-menu {
     position: absolute;
@@ -168,7 +169,7 @@ header .header-center {
 }
 .menu-toogle {
     background-color: #fff;
-    padding: 5px 8px;
+    padding: 5px 10px;
     border-radius: 30px;
     border: 2px solid #6995F5;
     display: flex;
@@ -196,9 +197,9 @@ header .header-center {
 }
 
 .menu-toogle-content {
-    border-radius: 11px;
+    border-radius: 0.7vw;
     border: 2px solid #6995F5;
-    min-width: 30px;
+    min-width: 1.5vw;
     padding: 0;
     overflow: hidden;
 }
@@ -209,7 +210,7 @@ header .header-center {
 }
 
 .menu-toogle-content .dropdown-item {
-    padding: 10px 25px;
+    padding: 10px 27px;
     color: #3C3C3C;
     width: 100%;
     text-align: center;
@@ -384,7 +385,7 @@ header .header-center {
 .section-1 {
     position: relative;
     overflow: hidden;
-    max-height: 1094px;
+    max-height: 60vw;
 }
 
 .bg-section {
@@ -418,21 +419,21 @@ header .header-center {
 }
 
 .section-1 .countdown-content .countdown-title img {
-    width: 323px;
-    height: 112px;
+    width: 21vw;
+    height: 6vw;
 }
 
 .section-1 .countdown-content .countdown-title {
-    margin-bottom: 46.94px;
+    margin-bottom: 2.5vw;
 }
 
 .countdown-time {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 35px;
+    font-size: 1.89vw;
     font-weight: 600;
-    margin-bottom: 53.28px;
+    margin-bottom: 2.9vw;
 }
 
 .countdown-time li {
@@ -442,8 +443,8 @@ header .header-center {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 43px;
-    height: 64px;
+    width: 2.35vw;
+    height: 3.49vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -464,7 +465,7 @@ header .header-center {
 .section-3 .product-wrap,
 .section-4 .product-wrap,
 .section-5 .product-wrap{
-    width: 800px;
+    width: 43.34vw;
 }
 
 .slider-products .product,
@@ -494,13 +495,13 @@ header .header-center {
 }
 
 .product-item .product-image img {
-    max-height: 238.5px;
+    max-height: 12.77vw;
     width: 100%;
     object-fit: cover;
 }
 
 .product-item .product-content {
-    padding: 15px;
+    padding: 20px 15px;
     text-align: left;
 }
 
@@ -544,14 +545,14 @@ header .header-center {
 .product-wrap .slick-prev,
 .product-wrap .slick-next {
     position: absolute;
-    top: 100%;
+    top: 23vw;
     display: block;
-    width: 47.65px;
-    height: 47.65px;
+    width: 2.82vw;
+    height: 2.82vw;
     padding: 0;
-    -webkit-transform: translate(0, -45%);
-    -ms-transform: translate(0, -45%);
-    transform: translate(0, -45%);
+    -webkit-transform: translate(0, -1.3vw);
+    -ms-transform: translate(0, -1.3vw);
+    transform: translate(0, -1.3vw);
     cursor: pointer;
     z-index: 10;
     color: transparent;
@@ -578,7 +579,7 @@ header .header-center {
 
 .product-wrap .slick-dots {
     position: absolute;
-    top: 99%;
+    top: 22.8vw;
     display: block;
     width: 100%;
     padding: 0;
@@ -640,12 +641,12 @@ header .header-center {
 }
 
 .section-2 .countdown-content .countdown-title img {
-    width: 386px;
-    height: 112px;
+    width: 20.58vw;
+    height: 6vw;
 }
 
 .section-2 .countdown-content .countdown-title {
-    margin-bottom: 81.78px;
+    margin-bottom: 4.3vw;
 }
 
 /* product */
@@ -658,13 +659,13 @@ header .header-center {
 }
 
 .section-2 .left ul {
-    padding-right: 63px;
+    padding-right: 4.3vw;
 }
 
 .section-2 .left ul li {
     margin-bottom: 25px;
-    border: 2px solid gray;
-    padding: 17px 33px;
+    border: 2px solid #80808057;
+    padding: 17px 15px;
     border-radius: 30px;
     text-align: center;
 }
@@ -685,6 +686,7 @@ ul li a {
 .section-2 .left ul li a {
     font-size: 20px;
     color: #434343;
+    font-weight: 500;
 }
 
 .right {
