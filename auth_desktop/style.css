@@ -311,7 +311,7 @@ header .header-center {
     height: 60%;
     background: url(./image/구성\ 요소\ 92\ –\ 1.svg);
     background-repeat: no-repeat;
-    animation: animate 0.6s
+    animation: animate 0.7s
 }
 
 .img-auth::before {
@@ -325,7 +325,7 @@ header .header-center {
     padding-right: 17px;
     background-position-x: 98%;
     background-position-y: 50%;
-    animation: animate 0.6s
+    animation: animate2 0.7s
 }
 
 @keyframes animate {
@@ -335,8 +335,19 @@ header .header-center {
     }
 
     to {
+        right: 13%;
+        bottom: -8%;
+    }
+}
+
+@keyframes animate2 {
+    from {
+        right: 0%;
+    }
+
+    to {
         right: 15%;
-        bottom: 4%;
+        top: 33%;
     }
 }
 
