@@ -1211,7 +1211,7 @@ font-size: 18px;
     position: relative;
 }
 
-.section-7 .product-section-7 .product-wrap:after,
+/* .section-7 .product-section-7 .product-wrap:after,
 .section-7 .product-section-7 .product-wrap::before{
     position: absolute;
     content: '';
@@ -1227,7 +1227,7 @@ font-size: 18px;
 .section-7 .product-section-7 .product-wrap::before{
     right: 0;
     z-index: 1;
-}
+} */
 .section-7 .product-wrap .slick-prev{
     display: none !important;
     background-image:url(./image/구성\ 요소\ 144\ –\ 1.svg);
