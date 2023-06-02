@@ -970,8 +970,6 @@ font-size: 18px;
 }
 
 .section-4 .product-item .product-image img {
-    max-width: 196px;
-    max-height: 196px;
     width: 100%;
     height: 100%;
     border-radius: 18px;
@@ -1013,11 +1011,11 @@ font-size: 18px;
 
 .section-4 .product-wrap .slick-prev,
 .section-4 .product-wrap .slick-next{
-    top: 24vw;
+    top: 26vw;
 }
 
 .section-4 .product-wrap .slick-dots{
-    top: 23.6vw;
+    top: 25.6vw;
 }
 
 /* section-4 */
