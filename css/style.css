@@ -1,10 +1,23 @@
 @import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
 
+:root {
+    --full-height: 100vh;
+}
+
+@​supports(height: 100dvh) {
+
+    :root {
+
+        --full-height: 100dvh;
+
+    }
+
+}
 
 body {
-    height: calc(var(--vh, 1vh) * 100);
-  }
-  
+    height: --full-height;
+}
+
 
 .layout-main {
     height: 100%;
