@@ -1,11 +1,17 @@
 @import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
 
 
-html,body{
-    height: 100%;
-    overflow: hidden;
-    position: relative;
-}
+body {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  
+  body::-webkit-scrollbar {
+    display: none;
+  }
 .layout-main{
     height: 100%;
 }
