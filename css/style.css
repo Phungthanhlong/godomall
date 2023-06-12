@@ -3,6 +3,7 @@
 
 html,body{
     height: 100%;
+    overflow: hidden;
 }
 
 /* Thiết lập CSS cho layout di động tại đây */
