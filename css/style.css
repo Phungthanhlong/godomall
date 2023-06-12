@@ -8,6 +8,7 @@ body {
 
 .layout-main {
     height: 100%;
+    position: relative;
 }
 
 /* Thiết lập CSS cho layout di động tại đây */
