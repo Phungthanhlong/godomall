@@ -61,10 +61,10 @@
             <img src="./image/popup_index/animation/image-8.svg">
             <img src="./image/popup_index/animation/image-9.svg">
             <img src="./image/popup_index/animation/image-10.svg">
-          </div> <!--xuất hiện hiệu ứng pháo giấy -->
+           </div> <!--xuất hiện hiệu ứng pháo giấy -->
         </div>
         <div class="redirect text-center">스토어봄 놀러가기</div>
-
+         
       </div>
     </div>
   </div>
@@ -74,14 +74,14 @@
       var popup = document.getElementById("popup-select");
       var render_img = document.getElementById("img-dog-cat");
       var render_name = document.getElementById("name");
-      if (option == 1) {
+      if(option == 1){
         var htmlCode = "<img class=\"dog\" src=\"./image/popup_index/dog.svg\">";
         var nameAnimal = "댕댕이와";
-        document.querySelector('.redirect.text-center').setAttribute('onclick', 'redirect(1)')
-      } else {
+        document.querySelector('.redirect.text-center').setAttribute('onclick','redirect(1)')
+      }else{
         var htmlCode = "<img class=\"cat\" src=\"./image/popup_index/cat.svg\">";
         var nameAnimal = "냥냥이와";
-        document.querySelector('.redirect.text-center').setAttribute('onclick', 'redirect(2)')
+        document.querySelector('.redirect.text-center').setAttribute('onclick','redirect(2)')
       }
       render_img.innerHTML = htmlCode;
       render_name.innerHTML = nameAnimal;
@@ -96,26 +96,18 @@
       popup.classList.remove("unchose");
     }
     function redirect(id) {
-      if (id == 1) {
+      if(id == 1){
         window.location.href = "./page_product/index-dog.html";
-      } else {
+      }else{
         window.location.href = "./page_product/index-cat.html";
       }
     }
-
-    setDynamicHeight();
-    function setDynamicHeight() {
-      var windowHeight = window.innerHeight;
-      // var browserHeight = window.outerHeight;
-      alert(windowHeight);
-      // var vh = browserHeight - windowHeight;
-      // document.documentElement.style.setProperty('--vh', `${vh}px`);
+    abc();
+    function abc(){
+      var cao = window.innerWidth;
+      var dai = window.innerHeight;
+      alert("rộng:"+cao+" dai:"+dai);
     }
-
-    // Gọi hàm khi trang được tải và khi thay đổi kích thước màn hình
-    // window.addEventListener('load', setDynamicHeight);
-    // window.addEventListener('resize', setDynamicHeight);
-
   </script>
 </body>
 
