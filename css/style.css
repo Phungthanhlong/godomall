@@ -3,16 +3,10 @@
 
 body {
     height: 100vh;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-  }
-  
-  body::-webkit-scrollbar {
-    display: none;
-  }
-.layout-main{
+
+}
+
+.layout-main {
     height: 100%;
 }
 
@@ -246,7 +240,7 @@ body {
     animation: animateZoom 0.5s
 }
 
-#red_seal>img{
+#red_seal>img {
     width: 44vw;
     height: 25vw;
 }
