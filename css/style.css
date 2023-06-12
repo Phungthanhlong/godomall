@@ -1,9 +1,11 @@
 @import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
 
 
-html,body {
-    height: 100vh;
-}
+body {
+    height: calc(var(--vh, 1vh) * 100);
+    overflow: hidden;
+  }
+  
 
 .layout-main {
     height: 100%;
