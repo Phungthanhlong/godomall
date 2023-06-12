@@ -13,6 +13,7 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+
 /* 
 .bg-img-index::after {
     content: '';
@@ -95,7 +96,7 @@
 .popup-content {
     top: 0;
     width: 100%;
-    height: 85%;
+    height: 184vw;
     background: url(../image/popup_index/background-popup-select.svg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -120,7 +121,7 @@
 }
 
 .main-content-popup .image-content {
-    height: 77%;
+    height: 128.4vw;
     padding: 0 5vw;
 }
 
@@ -145,7 +146,7 @@
 
 .card-ticket .img-animal {
     position: absolute;
-    top: 15%;
+    top: 19.3vw;
     width: 100%;
 }
 
@@ -154,17 +155,21 @@
 }
 
 .card-ticket .img-animal .dog {
-    left: 32%;
+    left: 31vw;
+    width: 29vw;
+    height: 32vw;
 }
 
 .card-ticket .img-animal .cat {
     left: 41%;
+    width: 22vw;
+    height: 35vw;
 }
 
 .text-ticket {
     position: absolute;
-    top: 45%;
-    left: 29%;
+    top: 57.8vw;
+    left: 27vw;
     text-align: center;
 }
 
@@ -179,6 +184,8 @@
 .text-ticket>img {
     margin-top: 0;
     margin-bottom: 1vh;
+    width: 30.7vw;
+    height: 10.5vw;
 }
 
 /* .content-popup-header h1.text {
@@ -192,7 +199,7 @@
 }
 
 .close-img img {
-    margin-right: 3rem;
+    margin-right: 7.7vw;
     z-index: 1;
 }
 
@@ -213,12 +220,22 @@
     }
 }
 
+.content-popup-header .text-center>img {
+    width: 57vw;
+    height: 9vw;
+}
+
 #red_seal {
     position: absolute;
-    bottom: 13%;
+    bottom: 17vw;
     z-index: 1;
-    left: 29%;
+    left: 27vw;
     animation: animateZoom 0.5s
+}
+
+#red_seal>img{
+    width: 44vw;
+    height: 25vw;
 }
 
 .pieces {
