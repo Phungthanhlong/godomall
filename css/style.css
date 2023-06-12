@@ -4,6 +4,10 @@
 html,body{
     height: 100%;
     overflow: hidden;
+    position: relative;
+}
+.layout-main{
+    height: 100%;
 }
 
 /* Thiết lập CSS cho layout di động tại đây */
